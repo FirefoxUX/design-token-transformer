@@ -2,14 +2,20 @@
 //
 // StyleDictionaryColor.h
 //
+
 // Do not edit directly
+<<<<<<< HEAD
 // Generated on Tue, 13 Jul 2021 17:24:51 GMT
 //
+=======
+// Generated on Sun, 11 Jul 2021 14:36:17 GMT
+>>>>>>> c59d42e64e1946492a29b26eb85f5636e8a20461
+
 
 #import <UIKit/UIKit.h>
 
-
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
+<<<<<<< HEAD
 DesktopLightButtonColorBackgroundPrimary,
 DesktopLightButtonColorBackgroundPrimaryHover,
 DesktopLightButtonColorBackgroundPrimaryActive,
@@ -91,6 +97,33 @@ DarkElevationShadow01Color,
 DarkElevationShadow02Color,
 DarkElevationShadow03Color,
 DarkElevationShadowSwitchColor
+=======
+BordersSingleStroke,
+BordersDashedOutsideStroke,
+BordersSingleStyleStroke,
+BordersUnsupportedMultipleBordersStroke,
+GradientGradientSingleWithMultipleColorStopsStops0Color,
+GradientGradientSingleWithMultipleColorStopsStops1Color,
+GradientGradientSingleWithMultipleColorStopsStops2Color,
+GradientGradientSingleWithMultipleColorStopsStops3Color,
+GradientGradientMultiple0Stops0Color,
+GradientGradientMultiple0Stops1Color,
+GradientGradientMultiple1Stops0Color,
+GradientGradientMultiple1Stops1Color,
+GradientGradientMultiple2Stops0Color,
+GradientGradientMultiple2Stops1Color,
+GradientGradientMultiple3Stops0Color,
+GradientGradientMultiple3Stops1Color,
+ColorColorsMultipleFills0,
+ColorColorsMultipleFills1,
+ColorColorsSingleBlue,
+ColorColorsSpecialCharacters,
+ColorColorsSpecialCharactersNderung,
+EffectDropShadowSingleColor,
+EffectInnerShadowMultiple0Color,
+EffectInnerShadowMultiple1Color,
+EffectInnerShadowMultiple2Color
+>>>>>>> c59d42e64e1946492a29b26eb85f5636e8a20461
 };
 
 @interface StyleDictionaryColor : NSObject
