@@ -4,12 +4,73 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 17 Aug 2021 20:15:30 GMT
+// Generated on Tue, 17 Aug 2021 20:21:23 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryColor {
+    public static let colorFxDesktopDarkBorderColorContextMenu = UIColor(red: 0.227, green: 0.224, blue: 0.267, alpha: 1)
+    public static let colorFxDesktopDarkBorderColorPanel = UIColor(red: 0.322, green: 0.322, blue: 0.369, alpha: 1)
+    public static let colorFxDesktopDarkBorderColorUiComponent = UIColor(red: 0.561, green: 0.561, blue: 0.616, alpha: 1)
+    public static let colorFxDesktopDarkColorActionError = UIColor(red: 0.886, green: 0.157, blue: 0.314, alpha: 1)
+    public static let colorFxDesktopDarkColorActionErrorActive = UIColor(red: 0.506, green: 0.008, blue: 0.125, alpha: 1)
+    public static let colorFxDesktopDarkColorActionErrorDisabled = UIColor(red: 0.886, green: 0.157, blue: 0.314, alpha: 0.4)
+    public static let colorFxDesktopDarkColorActionErrorHover = UIColor(red: 0.773, green: 0.000, blue: 0.259, alpha: 1)
+    public static let colorFxDesktopDarkColorActionPrimary = UIColor(red: 0.000, green: 0.867, blue: 1.000, alpha: 1)
+    public static let colorFxDesktopDarkColorActionPrimaryActive = UIColor(red: 0.667, green: 0.949, blue: 1.000, alpha: 1)
+    public static let colorFxDesktopDarkColorActionPrimaryDisabled = UIColor(red: 0.000, green: 0.867, blue: 1.000, alpha: 0.4)
+    public static let colorFxDesktopDarkColorActionPrimaryHover = UIColor(red: 0.502, green: 0.922, blue: 1.000, alpha: 1)
+    public static let colorFxDesktopDarkColorActionSecondary = UIColor(red: 0.169, green: 0.165, blue: 0.200, alpha: 1)
+    public static let colorFxDesktopDarkColorActionSecondaryActive = UIColor(red: 0.357, green: 0.357, blue: 0.400, alpha: 1)
+    public static let colorFxDesktopDarkColorActionSecondaryDisabled = UIColor(red: 0.169, green: 0.165, blue: 0.200, alpha: 0.4)
+    public static let colorFxDesktopDarkColorActionSecondaryHover = UIColor(red: 0.322, green: 0.322, blue: 0.369, alpha: 1)
+    public static let colorFxDesktopDarkIconColorCritical = UIColor(red: 1.000, green: 0.604, blue: 0.635, alpha: 1)
+    public static let colorFxDesktopDarkIconColorDefault = UIColor(red: 0.984, green: 0.984, blue: 0.996, alpha: 1)
+    public static let colorFxDesktopDarkIconColorInformation = UIColor(red: 0.502, green: 0.922, blue: 1.000, alpha: 1)
+    public static let colorFxDesktopDarkIconColorSuccess = UIColor(red: 0.329, green: 1.000, blue: 0.741, alpha: 1)
+    public static let colorFxDesktopDarkIconColorWarning = UIColor(red: 1.000, green: 0.741, blue: 0.310, alpha: 1)
+    public static let colorFxDesktopDarkLayerColor1 = UIColor(red: 0.110, green: 0.106, blue: 0.133, alpha: 1) /* Tabstrip Background */
+    public static let colorFxDesktopDarkLayerColor2 = UIColor(red: 0.169, green: 0.165, blue: 0.200, alpha: 1) /* Toolbar Background */
+    public static let colorFxDesktopDarkLayerColor3 = UIColor(red: 0.259, green: 0.255, blue: 0.302, alpha: 1) /* Panel, Modal, Infobar, and Menu Background */
+    public static let colorFxDesktopDarkLayerColorScrim = UIColor(red: 0.357, green: 0.357, blue: 0.400, alpha: 0.45) /* Web Page Overlay for Modals Background */
+    public static let colorFxDesktopDarkTextColorDisabled = UIColor(red: 0.984, green: 0.984, blue: 0.996, alpha: 0.4)
+    public static let colorFxDesktopDarkTextColorError = UIColor(red: 1.000, green: 0.604, blue: 0.635, alpha: 1)
+    public static let colorFxDesktopDarkTextColorInverted = UIColor(red: 0.082, green: 0.078, blue: 0.102, alpha: 1)
+    public static let colorFxDesktopDarkTextColorLink = UIColor(red: 0.000, green: 0.867, blue: 1.000, alpha: 1)
+    public static let colorFxDesktopDarkTextColorPrimary = UIColor(red: 0.984, green: 0.984, blue: 0.996, alpha: 1)
+    public static let colorFxDesktopDarkTextColorSecondary = UIColor(red: 0.812, green: 0.812, blue: 0.847, alpha: 1)
+    public static let colorFxDesktopLightBorderColorContextMenu = UIColor(red: 0.812, green: 0.812, blue: 0.847, alpha: 1)
+    public static let colorFxDesktopLightBorderColorModal = UIColor(red: 0.941, green: 0.941, blue: 0.957, alpha: 1)
+    public static let colorFxDesktopLightBorderColorPanel = UIColor(red: 0.941, green: 0.941, blue: 0.957, alpha: 1)
+    public static let colorFxDesktopLightBorderColorUiComponent = UIColor(red: 0.561, green: 0.561, blue: 0.616, alpha: 1)
+    public static let colorFxDesktopLightColorActionError = UIColor(red: 0.886, green: 0.157, blue: 0.314, alpha: 1)
+    public static let colorFxDesktopLightColorActionErrorActive = UIColor(red: 0.506, green: 0.008, blue: 0.125, alpha: 1) /* Pressed, MouseDown */
+    public static let colorFxDesktopLightColorActionErrorDisabled = UIColor(red: 0.886, green: 0.157, blue: 0.314, alpha: 0.4)
+    public static let colorFxDesktopLightColorActionErrorHover = UIColor(red: 0.773, green: 0.000, blue: 0.259, alpha: 1)
+    public static let colorFxDesktopLightColorActionPrimary = UIColor(red: 0.000, green: 0.376, blue: 0.875, alpha: 1) /* CSS token: --desktop-light-primary-button */
+    public static let colorFxDesktopLightColorActionPrimaryActive = UIColor(red: 0.020, green: 0.251, blue: 0.588, alpha: 1) /* Pressed, MouseDown */
+    public static let colorFxDesktopLightColorActionPrimaryDisabled = UIColor(red: 0.000, green: 0.376, blue: 0.875, alpha: 0.4)
+    public static let colorFxDesktopLightColorActionPrimaryHover = UIColor(red: 0.008, green: 0.314, blue: 0.733, alpha: 1) /* CSS token: --desktop-light-primary-button-hover */
+    public static let colorFxDesktopLightColorActionSecondary = UIColor(red: 0.941, green: 0.941, blue: 0.957, alpha: 1)
+    public static let colorFxDesktopLightColorActionSecondaryActive = UIColor(red: 0.812, green: 0.812, blue: 0.847, alpha: 1) /* Pressed, MouseDown */
+    public static let colorFxDesktopLightColorActionSecondaryDisabled = UIColor(red: 0.941, green: 0.941, blue: 0.957, alpha: 0.4)
+    public static let colorFxDesktopLightColorActionSecondaryHover = UIColor(red: 0.878, green: 0.878, blue: 0.902, alpha: 1)
+    public static let colorFxDesktopLightIconColorCritical = UIColor(red: 0.886, green: 0.157, blue: 0.314, alpha: 1) /* Use for critical or error alert icon */
+    public static let colorFxDesktopLightIconColorDefault = UIColor(red: 0.357, green: 0.357, blue: 0.400, alpha: 1)
+    public static let colorFxDesktopLightIconColorInformation = UIColor(red: 0.000, green: 0.565, blue: 0.929, alpha: 1)
+    public static let colorFxDesktopLightIconColorSuccess = UIColor(red: 0.165, green: 0.765, blue: 0.635, alpha: 1) /* Use for Update & Restart */
+    public static let colorFxDesktopLightIconColorWarning = UIColor(red: 1.000, green: 0.643, blue: 0.212, alpha: 1) /* Use for triangle alert icon */
+    public static let colorFxDesktopLightLayerColor1 = UIColor(red: 0.941, green: 0.941, blue: 0.957, alpha: 1) /* Tabstrip Background */
+    public static let colorFxDesktopLightLayerColor2 = UIColor(red: 0.976, green: 0.976, blue: 0.984, alpha: 1) /* Toolbar Background */
+    public static let colorFxDesktopLightLayerColor3 = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1) /* Panel, Modal, Infobar, and Menu Background */
+    public static let colorFxDesktopLightLayerColorScrim = UIColor(red: 0.357, green: 0.357, blue: 0.400, alpha: 0.45) /* Web Page Overlay for Modals Background */
+    public static let colorFxDesktopLightTextColorDisabled = UIColor(red: 0.082, green: 0.078, blue: 0.102, alpha: 0.4)
+    public static let colorFxDesktopLightTextColorError = UIColor(red: 0.773, green: 0.000, blue: 0.259, alpha: 1)
+    public static let colorFxDesktopLightTextColorInverted = UIColor(red: 0.984, green: 0.984, blue: 0.996, alpha: 1)
+    public static let colorFxDesktopLightTextColorLink = UIColor(red: 0.000, green: 0.376, blue: 0.875, alpha: 1)
+    public static let colorFxDesktopLightTextColorPrimary = UIColor(red: 0.082, green: 0.078, blue: 0.102, alpha: 1)
+    public static let colorFxDesktopLightTextColorSecondary = UIColor(red: 0.357, green: 0.357, blue: 0.400, alpha: 1)
     public static let desktopDarkBorderColorContextMenu = rgba(58, 57, 68, 1)
     public static let desktopDarkBorderColorPanel = rgba(82, 82, 94, 1)
     public static let desktopDarkBorderColorUiComponent = rgba(143, 143, 157, 1)
@@ -94,4 +155,27 @@ public enum StyleDictionaryColor {
     public static let desktopLightTextColorLink = rgba(0, 96, 223, 1)
     public static let desktopLightTextColorPrimary = rgba(21, 20, 26, 1)
     public static let desktopLightTextColorSecondary = rgba(91, 91, 102, 1)
+    public static let effectFxDesktopDarkShadowActiveTab0Color = rgba(0, 0, 0, 1)
+    public static let effectFxDesktopDarkShadowActiveTab1Color = rgba(0, 0, 0, 1)
+    public static let effectFxDesktopDarkShadowCardColor = rgba(21, 20, 26, 1)
+    public static let effectFxDesktopDarkShadowInfobarColor = rgba(0, 0, 0, 1)
+    public static let effectFxDesktopDarkShadowModalColor = rgba(21, 20, 26, 1)
+    public static let effectFxDesktopDarkShadowSwitchColor = rgba(0, 0, 0, 1)
+    public static let effectFxDesktopLightShadowActiveTab0Color = rgba(128, 128, 142, 0.5)
+    public static let effectFxDesktopLightShadowActiveTab1Color = rgba(128, 128, 142, 0.9)
+    public static let effectFxDesktopLightShadowCardColor = rgba(58, 57, 68, 0.2)
+    public static let effectFxDesktopLightShadowInfobarColor = rgba(58, 57, 68, 0.2)
+    public static let effectFxDesktopLightShadowModalColor = rgba(58, 57, 68, 0.2)
+    public static let effectFxDesktopLightShadowPanelColor = rgba(58, 57, 68, 1)
+    public static let effectFxDesktopLightShadowSwitchColor = rgba(58, 57, 68, 0.2)
+    public static let gradientFxDesktopDarkBorderColorZapStops0Color = rgba(144, 89, 255, 1)
+    public static let gradientFxDesktopDarkBorderColorZapStops1Color = rgba(255, 74, 162, 1)
+    public static let gradientFxDesktopDarkBorderColorZapStops2Color = rgba(255, 189, 79, 1)
+    public static let gradientFxDesktopDarkIconColorEtpShieldStops0Color = rgba(203, 158, 255, 1)
+    public static let gradientFxDesktopDarkIconColorEtpShieldStops1Color = rgba(0, 221, 255, 1)
+    public static let gradientFxDesktopLightBorderColorZapStops0Color = rgba(144, 89, 255, 1)
+    public static let gradientFxDesktopLightBorderColorZapStops1Color = rgba(255, 74, 162, 1)
+    public static let gradientFxDesktopLightBorderColorZapStops2Color = rgba(255, 189, 79, 1)
+    public static let gradientFxDesktopLightIconColorEtpShieldStops0Color = rgba(144, 89, 255, 1)
+    public static let gradientFxDesktopLightIconColorEtpShieldStops1Color = rgba(2, 80, 187, 1)
 }
