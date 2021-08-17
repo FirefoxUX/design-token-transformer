@@ -2,69 +2,8 @@
 
 <!--
   Do not edit directly
-  Generated on Tue, 17 Aug 2021 20:21:23 GMT
+  Generated on Tue, 17 Aug 2021 20:22:51 GMT
 -->
 <resources>
-  <color name="color_color_fx_desktop_light_color_action_primary">#0060df</color><!-- CSS token: --desktop-light-primary-button -->
-  <color name="color_color_fx_desktop_light_color_action_primary_hover">#0250bb</color><!-- CSS token: --desktop-light-primary-button-hover -->
-  <color name="color_color_fx_desktop_light_color_action_primary_active">#054096</color><!-- Pressed, MouseDown -->
-  <color name="color_color_fx_desktop_light_color_action_primary_disabled">#0060df</color>
-  <color name="color_color_fx_desktop_light_color_action_secondary">#f0f0f4</color>
-  <color name="color_color_fx_desktop_light_color_action_secondary_hover">#e0e0e6</color>
-  <color name="color_color_fx_desktop_light_color_action_secondary_active">#cfcfd8</color><!-- Pressed, MouseDown -->
-  <color name="color_color_fx_desktop_light_color_action_secondary_disabled">#f0f0f4</color>
-  <color name="color_color_fx_desktop_light_color_action_error">#e22850</color>
-  <color name="color_color_fx_desktop_light_color_action_error_hover">#c50042</color>
-  <color name="color_color_fx_desktop_light_color_action_error_active">#810220</color><!-- Pressed, MouseDown -->
-  <color name="color_color_fx_desktop_light_color_action_error_disabled">#e22850</color>
-  <color name="color_color_fx_desktop_light_text_color_primary">#15141a</color>
-  <color name="color_color_fx_desktop_light_text_color_secondary">#5b5b66</color>
-  <color name="color_color_fx_desktop_light_text_color_inverted">#fbfbfe</color>
-  <color name="color_color_fx_desktop_light_text_color_link">#0060df</color>
-  <color name="color_color_fx_desktop_light_text_color_error">#c50042</color>
-  <color name="color_color_fx_desktop_light_text_color_disabled">#15141a</color>
-  <color name="color_color_fx_desktop_light_icon_color_default">#5b5b66</color>
-  <color name="color_color_fx_desktop_light_icon_color_information">#0090ed</color>
-  <color name="color_color_fx_desktop_light_icon_color_warning">#ffa436</color><!-- Use for triangle alert icon -->
-  <color name="color_color_fx_desktop_light_icon_color_critical">#e22850</color><!-- Use for critical or error alert icon -->
-  <color name="color_color_fx_desktop_light_icon_color_success">#2ac3a2</color><!-- Use for Update & Restart -->
-  <color name="color_color_fx_desktop_light_layer_color_1">#f0f0f4</color><!-- Tabstrip Background -->
-  <color name="color_color_fx_desktop_light_layer_color_2">#f9f9fb</color><!-- Toolbar Background -->
-  <color name="color_color_fx_desktop_light_layer_color_3">#ffffff</color><!-- Panel, Modal, Infobar, and Menu Background -->
-  <color name="color_color_fx_desktop_light_layer_color_scrim">#5b5b66</color><!-- Web Page Overlay for Modals Background -->
-  <color name="color_color_fx_desktop_light_border_color_ui_component">#8f8f9d</color>
-  <color name="color_color_fx_desktop_light_border_color_panel">#f0f0f4</color>
-  <color name="color_color_fx_desktop_light_border_color_modal">#f0f0f4</color>
-  <color name="color_color_fx_desktop_light_border_color_context_menu">#cfcfd8</color>
-  <color name="color_color_fx_desktop_dark_color_action_primary">#00ddff</color>
-  <color name="color_color_fx_desktop_dark_color_action_primary_hover">#80ebff</color>
-  <color name="color_color_fx_desktop_dark_color_action_primary_active">#aaf2ff</color>
-  <color name="color_color_fx_desktop_dark_color_action_primary_disabled">#00ddff</color>
-  <color name="color_color_fx_desktop_dark_color_action_secondary">#2b2a33</color>
-  <color name="color_color_fx_desktop_dark_color_action_secondary_hover">#52525e</color>
-  <color name="color_color_fx_desktop_dark_color_action_secondary_active">#5b5b66</color>
-  <color name="color_color_fx_desktop_dark_color_action_secondary_disabled">#2b2a33</color>
-  <color name="color_color_fx_desktop_dark_color_action_error">#e22850</color>
-  <color name="color_color_fx_desktop_dark_color_action_error_hover">#c50042</color>
-  <color name="color_color_fx_desktop_dark_color_action_error_active">#810220</color>
-  <color name="color_color_fx_desktop_dark_color_action_error_disabled">#e22850</color>
-  <color name="color_color_fx_desktop_dark_text_color_primary">#fbfbfe</color>
-  <color name="color_color_fx_desktop_dark_text_color_secondary">#cfcfd8</color>
-  <color name="color_color_fx_desktop_dark_text_color_inverted">#15141a</color>
-  <color name="color_color_fx_desktop_dark_text_color_link">#00ddff</color>
-  <color name="color_color_fx_desktop_dark_text_color_error">#ff9aa2</color>
-  <color name="color_color_fx_desktop_dark_text_color_disabled">#fbfbfe</color>
-  <color name="color_color_fx_desktop_dark_icon_color_default">#fbfbfe</color>
-  <color name="color_color_fx_desktop_dark_icon_color_information">#80ebff</color>
-  <color name="color_color_fx_desktop_dark_icon_color_warning">#ffbd4f</color>
-  <color name="color_color_fx_desktop_dark_icon_color_critical">#ff9aa2</color>
-  <color name="color_color_fx_desktop_dark_icon_color_success">#54ffbd</color>
-  <color name="color_color_fx_desktop_dark_layer_color_1">#1c1b22</color><!-- Tabstrip Background -->
-  <color name="color_color_fx_desktop_dark_layer_color_2">#2b2a33</color><!-- Toolbar Background -->
-  <color name="color_color_fx_desktop_dark_layer_color_3">#42414d</color><!-- Panel, Modal, Infobar, and Menu Background -->
-  <color name="color_color_fx_desktop_dark_layer_color_scrim">#5b5b66</color><!-- Web Page Overlay for Modals Background -->
-  <color name="color_color_fx_desktop_dark_border_color_ui_component">#8f8f9d</color>
-  <color name="color_color_fx_desktop_dark_border_color_panel">#52525e</color>
-  <color name="color_color_fx_desktop_dark_border_color_context_menu">#3a3944</color>
   
 </resources>
