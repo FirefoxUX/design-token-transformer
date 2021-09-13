@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sat, 04 Sep 2021 16:32:51 GMT
+// Generated on Mon, 13 Sep 2021 17:25:09 GMT
 
 
 #import "StyleDictionarySize.h"
@@ -106,6 +106,12 @@ float const FxDesktopMacTypeSizeBodyLLetterSpacing = 0;
 float const FxDesktopMacTypeSizeBodyLLineHeight = 22.4;
 float const FxDesktopMacTypeSizeBodyLParagraphIndent = 0;
 float const FxDesktopMacTypeSizeBodyLParagraphSpacing = 0;
+float const FxDesktopMacTypeSizeBodyLLinkFontSize = 16;
+float const FxDesktopMacTypeSizeBodyLLinkFontWeight = 400;
+float const FxDesktopMacTypeSizeBodyLLinkLetterSpacing = 0;
+float const FxDesktopMacTypeSizeBodyLLinkLineHeight = 22.4;
+float const FxDesktopMacTypeSizeBodyLLinkParagraphIndent = 0;
+float const FxDesktopMacTypeSizeBodyLLinkParagraphSpacing = 0;
 float const FxDesktopMacTypeSizeBodyMBoldFontSize = 13.75;
 float const FxDesktopMacTypeSizeBodyMBoldFontWeight = 600;
 float const FxDesktopMacTypeSizeBodyMBoldLetterSpacing = 0;
@@ -118,6 +124,12 @@ float const FxDesktopMacTypeSizeBodyMLetterSpacing = 0;
 float const FxDesktopMacTypeSizeBodyMLineHeight = 19.25;
 float const FxDesktopMacTypeSizeBodyMParagraphIndent = 0;
 float const FxDesktopMacTypeSizeBodyMParagraphSpacing = 0;
+float const FxDesktopMacTypeSizeBodyMLinkFontSize = 13.75;
+float const FxDesktopMacTypeSizeBodyMLinkFontWeight = 400;
+float const FxDesktopMacTypeSizeBodyMLinkLetterSpacing = 0;
+float const FxDesktopMacTypeSizeBodyMLinkLineHeight = 19.25;
+float const FxDesktopMacTypeSizeBodyMLinkParagraphIndent = 0;
+float const FxDesktopMacTypeSizeBodyMLinkParagraphSpacing = 0;
 float const FxDesktopMacTypeSizeBodySBoldFontSize = 11;
 float const FxDesktopMacTypeSizeBodySBoldFontWeight = 600;
 float const FxDesktopMacTypeSizeBodySBoldLetterSpacing = 0;
@@ -130,6 +142,12 @@ float const FxDesktopMacTypeSizeBodySLetterSpacing = 0;
 float const FxDesktopMacTypeSizeBodySLineHeight = 15.4;
 float const FxDesktopMacTypeSizeBodySParagraphIndent = 0;
 float const FxDesktopMacTypeSizeBodySParagraphSpacing = 0;
+float const FxDesktopMacTypeSizeBodySLinkFontSize = 11;
+float const FxDesktopMacTypeSizeBodySLinkFontWeight = 400;
+float const FxDesktopMacTypeSizeBodySLinkLetterSpacing = 0;
+float const FxDesktopMacTypeSizeBodySLinkLineHeight = 15.4;
+float const FxDesktopMacTypeSizeBodySLinkParagraphIndent = 0;
+float const FxDesktopMacTypeSizeBodySLinkParagraphSpacing = 0;
 float const FxDesktopMacTypeSizeBodyXsFontSize = 8.800000190734863;
 float const FxDesktopMacTypeSizeBodyXsFontWeight = 400;
 float const FxDesktopMacTypeSizeBodyXsLetterSpacing = 2;
@@ -274,6 +292,12 @@ float const FxDesktopWinTypeSizeBodyLLetterSpacing = 0;
 float const FxDesktopWinTypeSizeBodyLLineHeight = 25.2;
 float const FxDesktopWinTypeSizeBodyLParagraphIndent = 0;
 float const FxDesktopWinTypeSizeBodyLParagraphSpacing = 0;
+float const FxDesktopWinTypeSizeBodyLLinkFontSize = 18;
+float const FxDesktopWinTypeSizeBodyLLinkFontWeight = 400;
+float const FxDesktopWinTypeSizeBodyLLinkLetterSpacing = 0;
+float const FxDesktopWinTypeSizeBodyLLinkLineHeight = 22.4;
+float const FxDesktopWinTypeSizeBodyLLinkParagraphIndent = 0;
+float const FxDesktopWinTypeSizeBodyLLinkParagraphSpacing = 0;
 float const FxDesktopWinTypeSizeBodyMBoldFontSize = 15;
 float const FxDesktopWinTypeSizeBodyMBoldFontWeight = 600;
 float const FxDesktopWinTypeSizeBodyMBoldLetterSpacing = 0;
@@ -286,6 +310,12 @@ float const FxDesktopWinTypeSizeBodyMLetterSpacing = 0;
 float const FxDesktopWinTypeSizeBodyMLineHeight = 21;
 float const FxDesktopWinTypeSizeBodyMParagraphIndent = 0;
 float const FxDesktopWinTypeSizeBodyMParagraphSpacing = 0;
+float const FxDesktopWinTypeSizeBodyMLinkFontSize = 15;
+float const FxDesktopWinTypeSizeBodyMLinkFontWeight = 400;
+float const FxDesktopWinTypeSizeBodyMLinkLetterSpacing = 0;
+float const FxDesktopWinTypeSizeBodyMLinkLineHeight = 21;
+float const FxDesktopWinTypeSizeBodyMLinkParagraphIndent = 0;
+float const FxDesktopWinTypeSizeBodyMLinkParagraphSpacing = 0;
 float const FxDesktopWinTypeSizeBodySBoldFontSize = 12;
 float const FxDesktopWinTypeSizeBodySBoldFontWeight = 600;
 float const FxDesktopWinTypeSizeBodySBoldLetterSpacing = 0;
@@ -298,6 +328,12 @@ float const FxDesktopWinTypeSizeBodySLetterSpacing = 0;
 float const FxDesktopWinTypeSizeBodySLineHeight = 16.8;
 float const FxDesktopWinTypeSizeBodySParagraphIndent = 0;
 float const FxDesktopWinTypeSizeBodySParagraphSpacing = 0;
+float const FxDesktopWinTypeSizeBodySLinkFontSize = 11;
+float const FxDesktopWinTypeSizeBodySLinkFontWeight = 400;
+float const FxDesktopWinTypeSizeBodySLinkLetterSpacing = 0;
+float const FxDesktopWinTypeSizeBodySLinkLineHeight = 15.4;
+float const FxDesktopWinTypeSizeBodySLinkParagraphIndent = 0;
+float const FxDesktopWinTypeSizeBodySLinkParagraphSpacing = 0;
 float const FxDesktopWinTypeSizeBodyXsFontSize = 9.600000381469727;
 float const FxDesktopWinTypeSizeBodyXsFontWeight = 400;
 float const FxDesktopWinTypeSizeBodyXsLetterSpacing = 2;

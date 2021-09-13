@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sat, 04 Sep 2021 16:32:51 GMT
+// Generated on Mon, 13 Sep 2021 17:25:09 GMT
 
 
 import UIKit
@@ -197,6 +197,18 @@ public class StyleDictionary {
     public static let fxDesktopMacTypeSizeBodyLFontWeight = 400
     public static let fxDesktopMacTypeSizeBodyLLetterSpacing = 0
     public static let fxDesktopMacTypeSizeBodyLLineHeight = 22.4
+    public static let fxDesktopMacTypeSizeBodyLLinkFontFamily = SF Pro Text
+    public static let fxDesktopMacTypeSizeBodyLLinkFontSize = 16
+    public static let fxDesktopMacTypeSizeBodyLLinkFontStretch = normal
+    public static let fxDesktopMacTypeSizeBodyLLinkFontStyle = normal
+    public static let fxDesktopMacTypeSizeBodyLLinkFontStyleOld = Regular
+    public static let fxDesktopMacTypeSizeBodyLLinkFontWeight = 400
+    public static let fxDesktopMacTypeSizeBodyLLinkLetterSpacing = 0
+    public static let fxDesktopMacTypeSizeBodyLLinkLineHeight = 22.4
+    public static let fxDesktopMacTypeSizeBodyLLinkParagraphIndent = 0
+    public static let fxDesktopMacTypeSizeBodyLLinkParagraphSpacing = 0
+    public static let fxDesktopMacTypeSizeBodyLLinkTextCase = none
+    public static let fxDesktopMacTypeSizeBodyLLinkTextDecoration = underline
     public static let fxDesktopMacTypeSizeBodyLParagraphIndent = 0
     public static let fxDesktopMacTypeSizeBodyLParagraphSpacing = 0
     public static let fxDesktopMacTypeSizeBodyLTextCase = none
@@ -257,6 +269,18 @@ public class StyleDictionary {
     public static let fxDesktopMacTypeSizeBodyMFontWeight = 400
     public static let fxDesktopMacTypeSizeBodyMLetterSpacing = 0
     public static let fxDesktopMacTypeSizeBodyMLineHeight = 19.25
+    public static let fxDesktopMacTypeSizeBodyMLinkFontFamily = SF Pro Text
+    public static let fxDesktopMacTypeSizeBodyMLinkFontSize = 13.75
+    public static let fxDesktopMacTypeSizeBodyMLinkFontStretch = normal
+    public static let fxDesktopMacTypeSizeBodyMLinkFontStyle = normal
+    public static let fxDesktopMacTypeSizeBodyMLinkFontStyleOld = Regular
+    public static let fxDesktopMacTypeSizeBodyMLinkFontWeight = 400
+    public static let fxDesktopMacTypeSizeBodyMLinkLetterSpacing = 0
+    public static let fxDesktopMacTypeSizeBodyMLinkLineHeight = 19.25
+    public static let fxDesktopMacTypeSizeBodyMLinkParagraphIndent = 0
+    public static let fxDesktopMacTypeSizeBodyMLinkParagraphSpacing = 0
+    public static let fxDesktopMacTypeSizeBodyMLinkTextCase = none
+    public static let fxDesktopMacTypeSizeBodyMLinkTextDecoration = underline
     public static let fxDesktopMacTypeSizeBodyMParagraphIndent = 0
     public static let fxDesktopMacTypeSizeBodyMParagraphSpacing = 0
     public static let fxDesktopMacTypeSizeBodyMTextCase = none
@@ -317,6 +341,18 @@ public class StyleDictionary {
     public static let fxDesktopMacTypeSizeBodySFontWeight = 400
     public static let fxDesktopMacTypeSizeBodySLetterSpacing = 0
     public static let fxDesktopMacTypeSizeBodySLineHeight = 15.4
+    public static let fxDesktopMacTypeSizeBodySLinkFontFamily = SF Pro Text
+    public static let fxDesktopMacTypeSizeBodySLinkFontSize = 11
+    public static let fxDesktopMacTypeSizeBodySLinkFontStretch = normal
+    public static let fxDesktopMacTypeSizeBodySLinkFontStyle = normal
+    public static let fxDesktopMacTypeSizeBodySLinkFontStyleOld = Regular
+    public static let fxDesktopMacTypeSizeBodySLinkFontWeight = 400
+    public static let fxDesktopMacTypeSizeBodySLinkLetterSpacing = 0
+    public static let fxDesktopMacTypeSizeBodySLinkLineHeight = 15.4
+    public static let fxDesktopMacTypeSizeBodySLinkParagraphIndent = 0
+    public static let fxDesktopMacTypeSizeBodySLinkParagraphSpacing = 0
+    public static let fxDesktopMacTypeSizeBodySLinkTextCase = none
+    public static let fxDesktopMacTypeSizeBodySLinkTextDecoration = underline
     public static let fxDesktopMacTypeSizeBodySParagraphIndent = 0
     public static let fxDesktopMacTypeSizeBodySParagraphSpacing = 0
     public static let fxDesktopMacTypeSizeBodySTextCase = none
@@ -545,6 +581,18 @@ public class StyleDictionary {
     public static let fxDesktopWinTypeSizeBodyLFontWeight = 400
     public static let fxDesktopWinTypeSizeBodyLLetterSpacing = 0
     public static let fxDesktopWinTypeSizeBodyLLineHeight = 25.2
+    public static let fxDesktopWinTypeSizeBodyLLinkFontFamily = Segoe UI
+    public static let fxDesktopWinTypeSizeBodyLLinkFontSize = 18
+    public static let fxDesktopWinTypeSizeBodyLLinkFontStretch = normal
+    public static let fxDesktopWinTypeSizeBodyLLinkFontStyle = normal
+    public static let fxDesktopWinTypeSizeBodyLLinkFontStyleOld = Regular
+    public static let fxDesktopWinTypeSizeBodyLLinkFontWeight = 400
+    public static let fxDesktopWinTypeSizeBodyLLinkLetterSpacing = 0
+    public static let fxDesktopWinTypeSizeBodyLLinkLineHeight = 22.4
+    public static let fxDesktopWinTypeSizeBodyLLinkParagraphIndent = 0
+    public static let fxDesktopWinTypeSizeBodyLLinkParagraphSpacing = 0
+    public static let fxDesktopWinTypeSizeBodyLLinkTextCase = none
+    public static let fxDesktopWinTypeSizeBodyLLinkTextDecoration = underline
     public static let fxDesktopWinTypeSizeBodyLParagraphIndent = 0
     public static let fxDesktopWinTypeSizeBodyLParagraphSpacing = 0
     public static let fxDesktopWinTypeSizeBodyLTextCase = none
@@ -569,6 +617,18 @@ public class StyleDictionary {
     public static let fxDesktopWinTypeSizeBodyMFontWeight = 400
     public static let fxDesktopWinTypeSizeBodyMLetterSpacing = 0
     public static let fxDesktopWinTypeSizeBodyMLineHeight = 21
+    public static let fxDesktopWinTypeSizeBodyMLinkFontFamily = Segoe UI
+    public static let fxDesktopWinTypeSizeBodyMLinkFontSize = 15
+    public static let fxDesktopWinTypeSizeBodyMLinkFontStretch = normal
+    public static let fxDesktopWinTypeSizeBodyMLinkFontStyle = normal
+    public static let fxDesktopWinTypeSizeBodyMLinkFontStyleOld = Regular
+    public static let fxDesktopWinTypeSizeBodyMLinkFontWeight = 400
+    public static let fxDesktopWinTypeSizeBodyMLinkLetterSpacing = 0
+    public static let fxDesktopWinTypeSizeBodyMLinkLineHeight = 21
+    public static let fxDesktopWinTypeSizeBodyMLinkParagraphIndent = 0
+    public static let fxDesktopWinTypeSizeBodyMLinkParagraphSpacing = 0
+    public static let fxDesktopWinTypeSizeBodyMLinkTextCase = none
+    public static let fxDesktopWinTypeSizeBodyMLinkTextDecoration = underline
     public static let fxDesktopWinTypeSizeBodyMParagraphIndent = 0
     public static let fxDesktopWinTypeSizeBodyMParagraphSpacing = 0
     public static let fxDesktopWinTypeSizeBodyMTextCase = none
@@ -593,6 +653,18 @@ public class StyleDictionary {
     public static let fxDesktopWinTypeSizeBodySFontWeight = 400
     public static let fxDesktopWinTypeSizeBodySLetterSpacing = 0
     public static let fxDesktopWinTypeSizeBodySLineHeight = 16.8
+    public static let fxDesktopWinTypeSizeBodySLinkFontFamily = SF Pro Text
+    public static let fxDesktopWinTypeSizeBodySLinkFontSize = 11
+    public static let fxDesktopWinTypeSizeBodySLinkFontStretch = normal
+    public static let fxDesktopWinTypeSizeBodySLinkFontStyle = normal
+    public static let fxDesktopWinTypeSizeBodySLinkFontStyleOld = Regular
+    public static let fxDesktopWinTypeSizeBodySLinkFontWeight = 400
+    public static let fxDesktopWinTypeSizeBodySLinkLetterSpacing = 0
+    public static let fxDesktopWinTypeSizeBodySLinkLineHeight = 15.4
+    public static let fxDesktopWinTypeSizeBodySLinkParagraphIndent = 0
+    public static let fxDesktopWinTypeSizeBodySLinkParagraphSpacing = 0
+    public static let fxDesktopWinTypeSizeBodySLinkTextCase = none
+    public static let fxDesktopWinTypeSizeBodySLinkTextDecoration = underline
     public static let fxDesktopWinTypeSizeBodySParagraphIndent = 0
     public static let fxDesktopWinTypeSizeBodySParagraphSpacing = 0
     public static let fxDesktopWinTypeSizeBodySTextCase = none

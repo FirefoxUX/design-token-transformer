@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sat, 04 Sep 2021 16:32:51 GMT
+// Generated on Mon, 13 Sep 2021 17:25:09 GMT
 
 
 import UIKit
@@ -90,6 +90,12 @@ public enum StyleDictionarySize {
     public static let desktopMacTypeSizeBodyLFontWeight = 400
     public static let desktopMacTypeSizeBodyLLetterSpacing = 0
     public static let desktopMacTypeSizeBodyLLineHeight = 22.4
+    public static let desktopMacTypeSizeBodyLLinkFontSize = 16
+    public static let desktopMacTypeSizeBodyLLinkFontWeight = 400
+    public static let desktopMacTypeSizeBodyLLinkLetterSpacing = 0
+    public static let desktopMacTypeSizeBodyLLinkLineHeight = 22.4
+    public static let desktopMacTypeSizeBodyLLinkParagraphIndent = 0
+    public static let desktopMacTypeSizeBodyLLinkParagraphSpacing = 0
     public static let desktopMacTypeSizeBodyLParagraphIndent = 0
     public static let desktopMacTypeSizeBodyLParagraphSpacing = 0
     public static let desktopMacTypeSizeBodyLargeBoldFontSize = 16
@@ -120,6 +126,12 @@ public enum StyleDictionarySize {
     public static let desktopMacTypeSizeBodyMFontWeight = 400
     public static let desktopMacTypeSizeBodyMLetterSpacing = 0
     public static let desktopMacTypeSizeBodyMLineHeight = 19.25
+    public static let desktopMacTypeSizeBodyMLinkFontSize = 13.75
+    public static let desktopMacTypeSizeBodyMLinkFontWeight = 400
+    public static let desktopMacTypeSizeBodyMLinkLetterSpacing = 0
+    public static let desktopMacTypeSizeBodyMLinkLineHeight = 19.25
+    public static let desktopMacTypeSizeBodyMLinkParagraphIndent = 0
+    public static let desktopMacTypeSizeBodyMLinkParagraphSpacing = 0
     public static let desktopMacTypeSizeBodyMParagraphIndent = 0
     public static let desktopMacTypeSizeBodyMParagraphSpacing = 0
     public static let desktopMacTypeSizeBodyMediumBoldFontSize = 14.220000267028809
@@ -150,6 +162,12 @@ public enum StyleDictionarySize {
     public static let desktopMacTypeSizeBodySFontWeight = 400
     public static let desktopMacTypeSizeBodySLetterSpacing = 0
     public static let desktopMacTypeSizeBodySLineHeight = 15.4
+    public static let desktopMacTypeSizeBodySLinkFontSize = 11
+    public static let desktopMacTypeSizeBodySLinkFontWeight = 400
+    public static let desktopMacTypeSizeBodySLinkLetterSpacing = 0
+    public static let desktopMacTypeSizeBodySLinkLineHeight = 15.4
+    public static let desktopMacTypeSizeBodySLinkParagraphIndent = 0
+    public static let desktopMacTypeSizeBodySLinkParagraphSpacing = 0
     public static let desktopMacTypeSizeBodySParagraphIndent = 0
     public static let desktopMacTypeSizeBodySParagraphSpacing = 0
     public static let desktopMacTypeSizeBodySmallBoldFontSize = 13.75
@@ -264,6 +282,12 @@ public enum StyleDictionarySize {
     public static let desktopWinTypeSizeBodyLFontWeight = 400
     public static let desktopWinTypeSizeBodyLLetterSpacing = 0
     public static let desktopWinTypeSizeBodyLLineHeight = 25.2
+    public static let desktopWinTypeSizeBodyLLinkFontSize = 18
+    public static let desktopWinTypeSizeBodyLLinkFontWeight = 400
+    public static let desktopWinTypeSizeBodyLLinkLetterSpacing = 0
+    public static let desktopWinTypeSizeBodyLLinkLineHeight = 22.4
+    public static let desktopWinTypeSizeBodyLLinkParagraphIndent = 0
+    public static let desktopWinTypeSizeBodyLLinkParagraphSpacing = 0
     public static let desktopWinTypeSizeBodyLParagraphIndent = 0
     public static let desktopWinTypeSizeBodyLParagraphSpacing = 0
     public static let desktopWinTypeSizeBodyMBoldFontSize = 15
@@ -276,6 +300,12 @@ public enum StyleDictionarySize {
     public static let desktopWinTypeSizeBodyMFontWeight = 400
     public static let desktopWinTypeSizeBodyMLetterSpacing = 0
     public static let desktopWinTypeSizeBodyMLineHeight = 21
+    public static let desktopWinTypeSizeBodyMLinkFontSize = 15
+    public static let desktopWinTypeSizeBodyMLinkFontWeight = 400
+    public static let desktopWinTypeSizeBodyMLinkLetterSpacing = 0
+    public static let desktopWinTypeSizeBodyMLinkLineHeight = 21
+    public static let desktopWinTypeSizeBodyMLinkParagraphIndent = 0
+    public static let desktopWinTypeSizeBodyMLinkParagraphSpacing = 0
     public static let desktopWinTypeSizeBodyMParagraphIndent = 0
     public static let desktopWinTypeSizeBodyMParagraphSpacing = 0
     public static let desktopWinTypeSizeBodySBoldFontSize = 12
@@ -288,6 +318,12 @@ public enum StyleDictionarySize {
     public static let desktopWinTypeSizeBodySFontWeight = 400
     public static let desktopWinTypeSizeBodySLetterSpacing = 0
     public static let desktopWinTypeSizeBodySLineHeight = 16.8
+    public static let desktopWinTypeSizeBodySLinkFontSize = 11
+    public static let desktopWinTypeSizeBodySLinkFontWeight = 400
+    public static let desktopWinTypeSizeBodySLinkLetterSpacing = 0
+    public static let desktopWinTypeSizeBodySLinkLineHeight = 15.4
+    public static let desktopWinTypeSizeBodySLinkParagraphIndent = 0
+    public static let desktopWinTypeSizeBodySLinkParagraphSpacing = 0
     public static let desktopWinTypeSizeBodySParagraphIndent = 0
     public static let desktopWinTypeSizeBodySParagraphSpacing = 0
     public static let desktopWinTypeSizeBodyXsFontSize = 9.600000381469727

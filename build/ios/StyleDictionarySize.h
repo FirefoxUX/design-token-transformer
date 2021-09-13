@@ -3,7 +3,7 @@
 //
 
 // Do not edit directly
-// Generated on Sat, 04 Sep 2021 16:32:51 GMT
+// Generated on Mon, 13 Sep 2021 17:25:09 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -105,6 +105,12 @@ extern float const FxDesktopMacTypeSizeBodyLLetterSpacing;
 extern float const FxDesktopMacTypeSizeBodyLLineHeight;
 extern float const FxDesktopMacTypeSizeBodyLParagraphIndent;
 extern float const FxDesktopMacTypeSizeBodyLParagraphSpacing;
+extern float const FxDesktopMacTypeSizeBodyLLinkFontSize;
+extern float const FxDesktopMacTypeSizeBodyLLinkFontWeight;
+extern float const FxDesktopMacTypeSizeBodyLLinkLetterSpacing;
+extern float const FxDesktopMacTypeSizeBodyLLinkLineHeight;
+extern float const FxDesktopMacTypeSizeBodyLLinkParagraphIndent;
+extern float const FxDesktopMacTypeSizeBodyLLinkParagraphSpacing;
 extern float const FxDesktopMacTypeSizeBodyMBoldFontSize;
 extern float const FxDesktopMacTypeSizeBodyMBoldFontWeight;
 extern float const FxDesktopMacTypeSizeBodyMBoldLetterSpacing;
@@ -117,6 +123,12 @@ extern float const FxDesktopMacTypeSizeBodyMLetterSpacing;
 extern float const FxDesktopMacTypeSizeBodyMLineHeight;
 extern float const FxDesktopMacTypeSizeBodyMParagraphIndent;
 extern float const FxDesktopMacTypeSizeBodyMParagraphSpacing;
+extern float const FxDesktopMacTypeSizeBodyMLinkFontSize;
+extern float const FxDesktopMacTypeSizeBodyMLinkFontWeight;
+extern float const FxDesktopMacTypeSizeBodyMLinkLetterSpacing;
+extern float const FxDesktopMacTypeSizeBodyMLinkLineHeight;
+extern float const FxDesktopMacTypeSizeBodyMLinkParagraphIndent;
+extern float const FxDesktopMacTypeSizeBodyMLinkParagraphSpacing;
 extern float const FxDesktopMacTypeSizeBodySBoldFontSize;
 extern float const FxDesktopMacTypeSizeBodySBoldFontWeight;
 extern float const FxDesktopMacTypeSizeBodySBoldLetterSpacing;
@@ -129,6 +141,12 @@ extern float const FxDesktopMacTypeSizeBodySLetterSpacing;
 extern float const FxDesktopMacTypeSizeBodySLineHeight;
 extern float const FxDesktopMacTypeSizeBodySParagraphIndent;
 extern float const FxDesktopMacTypeSizeBodySParagraphSpacing;
+extern float const FxDesktopMacTypeSizeBodySLinkFontSize;
+extern float const FxDesktopMacTypeSizeBodySLinkFontWeight;
+extern float const FxDesktopMacTypeSizeBodySLinkLetterSpacing;
+extern float const FxDesktopMacTypeSizeBodySLinkLineHeight;
+extern float const FxDesktopMacTypeSizeBodySLinkParagraphIndent;
+extern float const FxDesktopMacTypeSizeBodySLinkParagraphSpacing;
 extern float const FxDesktopMacTypeSizeBodyXsFontSize;
 extern float const FxDesktopMacTypeSizeBodyXsFontWeight;
 extern float const FxDesktopMacTypeSizeBodyXsLetterSpacing;
@@ -273,6 +291,12 @@ extern float const FxDesktopWinTypeSizeBodyLLetterSpacing;
 extern float const FxDesktopWinTypeSizeBodyLLineHeight;
 extern float const FxDesktopWinTypeSizeBodyLParagraphIndent;
 extern float const FxDesktopWinTypeSizeBodyLParagraphSpacing;
+extern float const FxDesktopWinTypeSizeBodyLLinkFontSize;
+extern float const FxDesktopWinTypeSizeBodyLLinkFontWeight;
+extern float const FxDesktopWinTypeSizeBodyLLinkLetterSpacing;
+extern float const FxDesktopWinTypeSizeBodyLLinkLineHeight;
+extern float const FxDesktopWinTypeSizeBodyLLinkParagraphIndent;
+extern float const FxDesktopWinTypeSizeBodyLLinkParagraphSpacing;
 extern float const FxDesktopWinTypeSizeBodyMBoldFontSize;
 extern float const FxDesktopWinTypeSizeBodyMBoldFontWeight;
 extern float const FxDesktopWinTypeSizeBodyMBoldLetterSpacing;
@@ -285,6 +309,12 @@ extern float const FxDesktopWinTypeSizeBodyMLetterSpacing;
 extern float const FxDesktopWinTypeSizeBodyMLineHeight;
 extern float const FxDesktopWinTypeSizeBodyMParagraphIndent;
 extern float const FxDesktopWinTypeSizeBodyMParagraphSpacing;
+extern float const FxDesktopWinTypeSizeBodyMLinkFontSize;
+extern float const FxDesktopWinTypeSizeBodyMLinkFontWeight;
+extern float const FxDesktopWinTypeSizeBodyMLinkLetterSpacing;
+extern float const FxDesktopWinTypeSizeBodyMLinkLineHeight;
+extern float const FxDesktopWinTypeSizeBodyMLinkParagraphIndent;
+extern float const FxDesktopWinTypeSizeBodyMLinkParagraphSpacing;
 extern float const FxDesktopWinTypeSizeBodySBoldFontSize;
 extern float const FxDesktopWinTypeSizeBodySBoldFontWeight;
 extern float const FxDesktopWinTypeSizeBodySBoldLetterSpacing;
@@ -297,6 +327,12 @@ extern float const FxDesktopWinTypeSizeBodySLetterSpacing;
 extern float const FxDesktopWinTypeSizeBodySLineHeight;
 extern float const FxDesktopWinTypeSizeBodySParagraphIndent;
 extern float const FxDesktopWinTypeSizeBodySParagraphSpacing;
+extern float const FxDesktopWinTypeSizeBodySLinkFontSize;
+extern float const FxDesktopWinTypeSizeBodySLinkFontWeight;
+extern float const FxDesktopWinTypeSizeBodySLinkLetterSpacing;
+extern float const FxDesktopWinTypeSizeBodySLinkLineHeight;
+extern float const FxDesktopWinTypeSizeBodySLinkParagraphIndent;
+extern float const FxDesktopWinTypeSizeBodySLinkParagraphSpacing;
 extern float const FxDesktopWinTypeSizeBodyXsFontSize;
 extern float const FxDesktopWinTypeSizeBodyXsFontWeight;
 extern float const FxDesktopWinTypeSizeBodyXsLetterSpacing;
