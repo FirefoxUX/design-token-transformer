@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 13 Sep 2021 21:56:59 GMT
+// Generated on Tue, 21 Sep 2021 15:16:46 GMT
 
 
 #import <UIKit/UIKit.h>
@@ -33,8 +33,6 @@ FxDesktopLightIconColorInformation,
 FxDesktopLightIconColorWarning,
 FxDesktopLightIconColorCritical,
 FxDesktopLightIconColorSuccess,
-FxDesktopLightIconColorEtpShieldStops0Color,
-FxDesktopLightIconColorEtpShieldStops1Color,
 FxDesktopLightLayerColor1,
 FxDesktopLightLayerColor2,
 FxDesktopLightLayerColor3,
@@ -43,16 +41,6 @@ FxDesktopLightBorderColorUiComponent,
 FxDesktopLightBorderColorPanel,
 FxDesktopLightBorderColorModal,
 FxDesktopLightBorderColorContextMenu,
-FxDesktopLightBorderColorZapStops0Color,
-FxDesktopLightBorderColorZapStops1Color,
-FxDesktopLightBorderColorZapStops2Color,
-FxDesktopLightShadowPanelColor,
-FxDesktopLightShadowCardColor,
-FxDesktopLightShadowModalColor,
-FxDesktopLightShadowInfobarColor,
-FxDesktopLightShadowActiveTab0Color,
-FxDesktopLightShadowActiveTab1Color,
-FxDesktopLightShadowSwitchColor,
 FxDesktopDarkColorActionPrimary,
 FxDesktopDarkColorActionPrimaryHover,
 FxDesktopDarkColorActionPrimaryActive,
@@ -76,24 +64,13 @@ FxDesktopDarkIconColorInformation,
 FxDesktopDarkIconColorWarning,
 FxDesktopDarkIconColorCritical,
 FxDesktopDarkIconColorSuccess,
-FxDesktopDarkIconColorEtpShieldStops0Color,
-FxDesktopDarkIconColorEtpShieldStops1Color,
 FxDesktopDarkLayerColor1,
 FxDesktopDarkLayerColor2,
 FxDesktopDarkLayerColor3,
 FxDesktopDarkLayerColorScrim,
 FxDesktopDarkBorderColorUiComponent,
 FxDesktopDarkBorderColorPanel,
-FxDesktopDarkBorderColorContextMenu,
-FxDesktopDarkBorderColorZapStops0Color,
-FxDesktopDarkBorderColorZapStops1Color,
-FxDesktopDarkBorderColorZapStops2Color,
-FxDesktopDarkShadowCardColor,
-FxDesktopDarkShadowModalColor,
-FxDesktopDarkShadowInfobarColor,
-FxDesktopDarkShadowSwitchColor,
-FxDesktopDarkShadowActiveTab0Color,
-FxDesktopDarkShadowActiveTab1Color
+FxDesktopDarkBorderColorContextMenu
 };
 
 @interface StyleDictionaryColor : NSObject

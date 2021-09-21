@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 13 Sep 2021 21:56:59 GMT
+// Generated on Tue, 21 Sep 2021 15:16:46 GMT
 
 
 import UIKit
@@ -13,9 +13,6 @@ public enum StyleDictionaryColor {
     public static let desktopDarkBorderColorContextMenu = rgba(58, 57, 68, 1)
     public static let desktopDarkBorderColorPanel = rgba(82, 82, 94, 1)
     public static let desktopDarkBorderColorUiComponent = rgba(143, 143, 157, 1)
-    public static let desktopDarkBorderColorZapStops0Color = rgba(144, 89, 255, 1)
-    public static let desktopDarkBorderColorZapStops1Color = rgba(255, 74, 162, 1)
-    public static let desktopDarkBorderColorZapStops2Color = rgba(255, 189, 79, 1)
     public static let desktopDarkColorActionError = rgba(226, 40, 80, 1)
     public static let desktopDarkColorActionErrorActive = rgba(129, 2, 32, 1)
     public static let desktopDarkColorActionErrorDisabled = rgba(226, 40, 80, 0.4)
@@ -30,8 +27,6 @@ public enum StyleDictionaryColor {
     public static let desktopDarkColorActionSecondaryHover = rgba(82, 82, 94, 1)
     public static let desktopDarkIconColorCritical = rgba(255, 154, 162, 1)
     public static let desktopDarkIconColorDefault = rgba(251, 251, 254, 1)
-    public static let desktopDarkIconColorEtpShieldStops0Color = rgba(203, 158, 255, 1)
-    public static let desktopDarkIconColorEtpShieldStops1Color = rgba(0, 221, 255, 1)
     public static let desktopDarkIconColorInformation = rgba(128, 235, 255, 1)
     public static let desktopDarkIconColorSuccess = rgba(84, 255, 189, 1)
     public static let desktopDarkIconColorWarning = rgba(255, 189, 79, 1)
@@ -39,12 +34,6 @@ public enum StyleDictionaryColor {
     public static let desktopDarkLayerColor2 = rgba(43, 42, 51, 1) /* Toolbar Background */
     public static let desktopDarkLayerColor3 = rgba(66, 65, 77, 1) /* Panel, Modal, Infobar, and Menu Background */
     public static let desktopDarkLayerColorScrim = rgba(91, 91, 102, 0.45) /* Web Page Overlay for Modals Background */
-    public static let desktopDarkShadowActiveTab0Color = rgba(0, 0, 0, 1)
-    public static let desktopDarkShadowActiveTab1Color = rgba(0, 0, 0, 1)
-    public static let desktopDarkShadowCardColor = rgba(21, 20, 26, 1)
-    public static let desktopDarkShadowInfobarColor = rgba(0, 0, 0, 1)
-    public static let desktopDarkShadowModalColor = rgba(21, 20, 26, 1)
-    public static let desktopDarkShadowSwitchColor = rgba(0, 0, 0, 1)
     public static let desktopDarkTextColorDisabled = rgba(251, 251, 254, 0.4)
     public static let desktopDarkTextColorError = rgba(255, 154, 162, 1)
     public static let desktopDarkTextColorInverted = rgba(21, 20, 26, 1)
@@ -55,9 +44,6 @@ public enum StyleDictionaryColor {
     public static let desktopLightBorderColorModal = rgba(240, 240, 244, 1)
     public static let desktopLightBorderColorPanel = rgba(240, 240, 244, 1)
     public static let desktopLightBorderColorUiComponent = rgba(143, 143, 157, 1)
-    public static let desktopLightBorderColorZapStops0Color = rgba(144, 89, 255, 1)
-    public static let desktopLightBorderColorZapStops1Color = rgba(255, 74, 162, 1)
-    public static let desktopLightBorderColorZapStops2Color = rgba(255, 189, 79, 1)
     public static let desktopLightColorActionError = rgba(226, 40, 80, 1)
     public static let desktopLightColorActionErrorActive = rgba(129, 2, 32, 1) /* Pressed, MouseDown */
     public static let desktopLightColorActionErrorDisabled = rgba(226, 40, 80, 0.4)
@@ -72,8 +58,6 @@ public enum StyleDictionaryColor {
     public static let desktopLightColorActionSecondaryHover = rgba(224, 224, 230, 1)
     public static let desktopLightIconColorCritical = rgba(226, 40, 80, 1) /* Use for critical or error alert icon */
     public static let desktopLightIconColorDefault = rgba(91, 91, 102, 1)
-    public static let desktopLightIconColorEtpShieldStops0Color = rgba(144, 89, 255, 1)
-    public static let desktopLightIconColorEtpShieldStops1Color = rgba(2, 80, 187, 1)
     public static let desktopLightIconColorInformation = rgba(0, 144, 237, 1)
     public static let desktopLightIconColorSuccess = rgba(42, 195, 162, 1) /* Use for Update & Restart */
     public static let desktopLightIconColorWarning = rgba(255, 164, 54, 1) /* Use for triangle alert icon */
@@ -81,13 +65,6 @@ public enum StyleDictionaryColor {
     public static let desktopLightLayerColor2 = rgba(249, 249, 251, 1) /* Toolbar Background */
     public static let desktopLightLayerColor3 = rgba(255, 255, 255, 1) /* Panel, Modal, Infobar, and Menu Background */
     public static let desktopLightLayerColorScrim = rgba(91, 91, 102, 0.45) /* Web Page Overlay for Modals Background */
-    public static let desktopLightShadowActiveTab0Color = rgba(128, 128, 142, 0.5)
-    public static let desktopLightShadowActiveTab1Color = rgba(128, 128, 142, 0.9)
-    public static let desktopLightShadowCardColor = rgba(58, 57, 68, 0.2)
-    public static let desktopLightShadowInfobarColor = rgba(58, 57, 68, 0.2)
-    public static let desktopLightShadowModalColor = rgba(58, 57, 68, 0.2)
-    public static let desktopLightShadowPanelColor = rgba(58, 57, 68, 1)
-    public static let desktopLightShadowSwitchColor = rgba(58, 57, 68, 0.2)
     public static let desktopLightTextColorDisabled = rgba(21, 20, 26, 0.4)
     public static let desktopLightTextColorError = rgba(197, 0, 66, 1)
     public static let desktopLightTextColorInverted = rgba(251, 251, 254, 1)
