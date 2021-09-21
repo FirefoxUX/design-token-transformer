@@ -1,5 +1,6 @@
 # Basic Style Dictionary
 
+<<<<<<< HEAD
 This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run:
 ```bash
 style-dictionary build
@@ -179,3 +180,8 @@ Now let's make a change and see how that affects things. Open up `tokens/color/b
 **Huzzah!**
 
 Now go forth and create! Take a look at all the built-in [transforms](https://amzn.github.io/style-dictionary/#/transforms?id=pre-defined-transforms) and [formats](https://amzn.github.io/style-dictionary/#/formats?id=pre-defined-formats).
+=======
+A place to access foundational Firefox styles from the current design system via design tokens.
+
+We rely on a workflow of utilizing [Design Tokens](https://www.figma.com/community/plugin/888356646278934516/Design-Tokens), and [Style Dictionary](https://amzn.github.io/style-dictionary/).
+>>>>>>> a4897bc275b622d1d5f068565fbfb4183f1f9474
