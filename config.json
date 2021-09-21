@@ -1,49 +1,49 @@
 {
-  "source": ["tokens/*.json"],
+  "source": ["tokens/**/*.json"],
   "platforms": {
     "scss": {
-      "transformGroup": "custom/scss",
+      "transformGroup": "scss",
       "buildPath": "build/scss/",
       "files": [{
         "destination": "_variables.scss",
         "format": "scss/variables"
       }]
     },
-    "less": {
-      "transformGroup": "custom/less",
-      "buildPath": "build/less/",
-      "files": [{
-        "destination": "_variables.less",
-        "format": "less/variables"
-      }]
-    },
-    "css": {
-      "transformGroup": "custom/css",
-      "buildPath": "build/css/",
-      "files": [{
-        "destination": "_variables.css",
-        "format": "css/variables",
-        "options" : {
-          "showFileHeader": false
-        }
-      }]
-    },
-    "json-flat": {
-      "transformGroup": "js",
-      "buildPath": "build/json/",
-      "files": [
-        {
-          "destination": "styles.json",
-          "format": "json/flat"
-        }
-      ]
-    },
     "android": {
-      "transforms": ["attribute/cti", "name/cti/snake", "color/hex", "size/remToSp", "size/remToDp"],
+      "transformGroup": "android",
       "buildPath": "build/android/",
       "files": [{
-        "destination": "style_dictionary_colors.xml",
-        "template": "android/colors"
+        "destination": "font_dimens.xml",
+        "format": "android/fontDimens"
+      },{
+        "destination": "colors.xml",
+        "format": "android/colors"
+      }]
+    },
+    "compose": {
+      "transformGroup": "compose",
+      "buildPath": "build/compose/",
+      "files": [{
+        "destination": "StyleDictionaryColor.kt",
+        "format": "compose/object",
+        "className": "StyleDictionaryColor",
+        "packageName": "StyleDictionaryColor",
+        "filter": {
+          "attributes": {
+            "category": "color"
+          }
+        }
+      },{
+        "destination": "StyleDictionarySize.kt",
+        "format": "compose/object",
+        "className": "StyleDictionarySize",
+        "packageName": "StyleDictionarySize",
+        "type": "float",
+        "filter": {
+          "attributes": {
+            "category": "size"
+          }
+        }
       }]
     },
     "ios": {
@@ -55,7 +55,9 @@
         "className": "StyleDictionaryColor",
         "type": "StyleDictionaryColorName",
         "filter": {
-          "type": "color"
+          "attributes": {
+            "category": "color"
+          }
         }
       },{
         "destination": "StyleDictionaryColor.m",
@@ -63,7 +65,9 @@
         "className": "StyleDictionaryColor",
         "type": "StyleDictionaryColorName",
         "filter": {
-          "type": "color"
+          "attributes": {
+            "category": "color"
+          }
         }
       },{
         "destination": "StyleDictionarySize.h",
@@ -71,7 +75,9 @@
         "className": "StyleDictionarySize",
         "type": "float",
         "filter": {
-          "type": "number"
+          "attributes": {
+            "category": "size"
+          }
         }
       },{
         "destination": "StyleDictionarySize.m",
@@ -79,7 +85,9 @@
         "className": "StyleDictionarySize",
         "type": "float",
         "filter": {
-          "type": "number"
+          "attributes": {
+            "category": "size"
+          }
         }
       }]
     },
@@ -101,7 +109,9 @@
         "format": "ios-swift/enum.swift",
         "className": "StyleDictionaryColor",
         "filter": {
-          "type": "color"
+          "attributes": {
+            "category": "color"
+          }
         }
       },{
         "destination": "StyleDictionarySize.swift",
@@ -109,7 +119,9 @@
         "className": "StyleDictionarySize",
         "type": "float",
         "filter": {
-          "type": "number"
+          "attributes": {
+            "category": "size"
+          }
         }
       }]
     }
