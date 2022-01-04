@@ -48,6 +48,15 @@ StyleDictionary.registerTransformGroup({
   ]),
 })
 
+
+StyleDictionary.registerTransformGroup({
+  name: 'color/scss',
+  transforms: StyleDictionary.transformGroup['less'].concat([
+    'color/rgba',
+  ]),
+})
+
+
 const StyleDictionaryExtended = StyleDictionary.extend(baseConfig)
 
 StyleDictionaryExtended.buildAllPlatforms()
