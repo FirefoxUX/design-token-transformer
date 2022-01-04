@@ -25,7 +25,7 @@ jobs:
         uses: jsdaniell/create-json@1.1.2
         with:
           # it uses the name from your settings that was send as then tokenFileName parameter
-          name: 'design-tokens-example.json'
+          name: 'design-tokens.json'
           # it uses the json string that was send as the tokens parameter
           json: ${{ github.event.client_payload.tokens }}
           # it uses the directory named "tokens" to store this json file (change this if you changed it above to use a different folder)
@@ -39,9 +39,13 @@ jobs:
       # We now run npm i to install all dependencies and run the "transfrom" script that is defined in the package.json (change this if you need to)
       - name: Transform design tokens 
         run: 'npm i && npm run transform-tokens'
-      # We now store the changes in the repository
-      - name: Persist changes in repository
-        uses: mikeal/publish-to-github-action@master
+      # We now create a pull request 
+      - name: Create PR 
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: "Tokens updated"
+          title: "Design tokens updated"
+          body: "Design tokens have been updated via Figma and need to be reviewed."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # this parameter is optional and defaults to master but I am using main
