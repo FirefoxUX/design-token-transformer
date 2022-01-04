@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Tue, 04 Jan 2022 23:49:10 GMT
+-->
+<resources>
+  <color name="color_action_primary_light">#0060df</color>
+  <color name="color_action_primary_hover_light">#0250bb</color>
+  <color name="color_action_primary_active_light">#054096</color>
+  <color name="color_action_primary_disabled_light">#0060df</color>
+  <color name="color_action_secondary_light">#f0f0f4</color>
+  <color name="color_action_secondary_hover_light">#e0e0e6</color>
+  <color name="color_action_secondary_active_light">#cfcfd8</color>
+  <color name="color_action_secondary_disabled_light">#f0f0f4</color>
+  <color name="color_action_error_light">#e22850</color>
+  <color name="color_action_error_hover_light">#c50042</color>
+  <color name="color_action_error_active_light">#810220</color>
+  <color name="color_action_error_disabled_light">#e22850</color>
+  <color name="color_action_primary_dark">#00ddff</color>
+  <color name="color_action_primary_hover_dark">#80ebff</color>
+  <color name="color_action_primary_active_dark">#aaf2ff</color>
+  <color name="color_action_primary_disabled_dark">#00ddff</color>
+  <color name="color_action_secondary_dark">#2b2a33</color>
+  <color name="color_action_secondary_hover_dark">#52525e</color>
+  <color name="color_action_secondary_active_dark">#5b5b66</color>
+  <color name="color_action_secondary_disabled_dark">#2b2a33</color>
+  <color name="color_action_error_dark">#ff8480</color>
+  <color name="color_action_error_hover_dark">#ffbdc5</color>
+  <color name="color_action_error_active_dark">#ffdfe7</color>
+  <color name="color_action_error_disabled_dark">#ff848b</color>
+  <color name="color_background_1_light">#f0f0f4</color>
+  <color name="color_background_2_light">#f9f9fb</color>
+  <color name="color_background_3_light">#ffffff</color>
+  <color name="color_background_scrim_light">#5b5b66</color>
+  <color name="color_background_1_dark">#1c1b22</color>
+  <color name="color_background_2_dark">#2b2a33</color>
+  <color name="color_background_3_dark">#42414d</color>
+  <color name="color_background_scrim_dark">#5b5b66</color>
+  <color name="color_border_ui_component_light">#8f8f9d</color>
+  <color name="color_border_panel_light">#f0f0f4</color>
+  <color name="color_border_modal_light">#f0f0f4</color>
+  <color name="color_border_context_menu_light">#cfcfd8</color>
+  <color name="color_border_ui_component_dark">#8f8f9d</color>
+  <color name="color_border_panel_dark">#52525e</color>
+  <color name="color_border_context_menu_dark">#3a3944</color>
+  <color name="color_icon_default_light">#5b5b66</color>
+  <color name="color_icon_information_light">#0090ed</color>
+  <color name="color_icon_warning_light">#ffa436</color>
+  <color name="color_icon_critical_light">#e22850</color>
+  <color name="color_icon_success_light">#2ac3a2</color>
+  <color name="color_icon_default_dark">#fbfbfe</color>
+  <color name="color_icon_information_dark">#80ebff</color>
+  <color name="color_icon_warning_dark">#ffbd4f</color>
+  <color name="color_icon_critical_dark">#ff9aa2</color>
+  <color name="color_icon_success_dark">#54ffbd</color>
+  <color name="color_text_primary_light">#15141a</color>
+  <color name="color_text_secondary_light">#5b5b66</color>
+  <color name="color_text_inverted_light">#fbfbfe</color>
+  <color name="color_text_link_light">#0060df</color>
+  <color name="color_text_error_light">#c50042</color>
+  <color name="color_text_disabled_light">#15141a</color>
+  <color name="color_text_primary_dark">#fbfbfe</color>
+  <color name="color_text_secondary_dark">#cfcfd8</color>
+  <color name="color_text_inverted_dark">#15141a</color>
+  <color name="color_text_link_dark">#00ddff</color>
+  <color name="color_text_error_dark">#ff9aa2</color>
+  <color name="color_text_disabled_dark">#fbfbfe</color>
+  
+</resources>

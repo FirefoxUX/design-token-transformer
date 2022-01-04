@@ -28,7 +28,7 @@
       "buildPath": "build/android/",
       "files": [{
         "destination": "style_dictionary_colors.xml",
-        "template": "android/colors"
+        "format": "android/colors"
       }]
     },
     "ios": {
