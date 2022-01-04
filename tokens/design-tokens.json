@@ -1,1072 +1,2802 @@
 {
-  "fx": {
-    "desktop": {
-      "light": {
-        "color": {
-          "action": {
-            "primary": {
-              "description": "CSS token: --desktop-light-primary-button",
-              "type": "color",
-              "value": "#0060dfff"
-            },
-            "primary-hover": {
-              "description": "CSS token: --desktop-light-primary-button-hover",
-              "type": "color",
-              "value": "#0250bbff"
-            },
-            "primary-active": {
-              "description": "Pressed, MouseDown",
-              "type": "color",
-              "value": "#054096ff"
-            },
-            "primary-disabled": {
-              "description": null,
-              "type": "color",
-              "value": "#0060df66"
-            },
-            "secondary": {
-              "description": null,
-              "type": "color",
-              "value": "#f0f0f4ff"
-            },
-            "secondary-hover": {
-              "description": null,
-              "type": "color",
-              "value": "#e0e0e6ff"
-            },
-            "secondary-active": {
-              "description": "Pressed, MouseDown",
-              "type": "color",
-              "value": "#cfcfd8ff"
-            },
-            "secondary-disabled": {
-              "description": null,
-              "type": "color",
-              "value": "#f0f0f466"
-            },
-            "error": {
-              "description": null,
-              "type": "color",
-              "value": "#e22850ff"
-            },
-            "error-hover": {
-              "description": null,
-              "type": "color",
-              "value": "#c50042ff"
-            },
-            "error-active": {
-              "description": "Pressed, MouseDown",
-              "type": "color",
-              "value": "#810220ff"
-            },
-            "error-disabled": {
-              "description": null,
-              "type": "color",
-              "value": "#e2285066"
-            }
-          }
-        },
-        "text": {
-          "color": {
-            "primary": {
-              "description": null,
-              "type": "color",
-              "value": "#15141aff"
-            },
-            "secondary": {
-              "description": null,
-              "type": "color",
-              "value": "#5b5b66ff"
-            },
-            "inverted": {
-              "description": null,
-              "type": "color",
-              "value": "#fbfbfeff"
-            },
-            "link": {
-              "description": null,
-              "type": "color",
-              "value": "#0060dfff"
-            },
-            "error": {
-              "description": null,
-              "type": "color",
-              "value": "#c50042ff"
-            },
-            "disabled": {
-              "description": null,
-              "type": "color",
-              "value": "#15141a66"
-            }
-          }
-        },
-        "icon": {
-          "color": {
-            "default": {
-              "description": null,
-              "type": "color",
-              "value": "#5b5b66ff"
-            },
-            "information": {
-              "description": null,
-              "type": "color",
-              "value": "#0090edff"
-            },
-            "warning": {
-              "description": "Use for triangle alert icon",
-              "type": "color",
-              "value": "#ffa436ff"
-            },
-            "critical": {
-              "description": "Use for critical or error alert icon",
-              "type": "color",
-              "value": "#e22850ff"
-            },
-            "success": {
-              "description": "Use for Update & Restart",
-              "type": "color",
-              "value": "#2ac3a2ff"
-            },
-            "etp-shield": {
-              "description": "Use for ETP Active ONLY",
-              "type": "custom-gradient",
-              "value": {
-                "gradientType": "linear",
-                "rotation": 224.99999829245263,
-                "stops": [
-                  {
-                    "position": 0,
-                    "color": "#9059ffff"
-                  },
-                  {
-                    "position": 1,
-                    "color": "#0250bbff"
-                  }
-                ]
-              }
-            }
-          }
-        },
-        "layer": {
-          "color": {
-            "1": {
-              "description": "Tabstrip Background",
-              "type": "color",
-              "value": "#f0f0f4ff"
-            },
-            "2": {
-              "description": "Toolbar Background",
-              "type": "color",
-              "value": "#f9f9fbff"
-            },
-            "3": {
-              "description": "Panel, Modal, Infobar, and Menu Background",
-              "type": "color",
-              "value": "#ffffffff"
-            },
-            "scrim": {
-              "description": "Web Page Overlay for Modals Background",
-              "type": "color",
-              "value": "#5b5b6673"
-            }
-          }
-        },
-        "border": {
-          "color": {
-            "ui-component": {
-              "description": null,
-              "type": "color",
-              "value": "#8f8f9dff"
-            },
-            "panel": {
-              "description": null,
-              "type": "color",
-              "value": "#f0f0f4ff"
-            },
-            "modal": {
-              "description": null,
-              "type": "color",
-              "value": "#f0f0f4ff"
-            },
-            "context-menu": {
-              "description": null,
-              "type": "color",
-              "value": "#cfcfd8ff"
-            },
-            "zap": {
-              "description": null,
-              "type": "custom-gradient",
-              "value": {
-                "gradientType": "linear",
-                "rotation": 134.99853808113966,
-                "stops": [
-                  {
-                    "position": 0,
-                    "color": "#9059ffff"
-                  },
-                  {
-                    "position": 0.52,
-                    "color": "#ff4aa2ff"
-                  },
-                  {
-                    "position": 1,
-                    "color": "#ffbd4fff"
-                  }
-                ]
-              }
-            }
-          }
-        },
-        "shadow": {
-          "panel": {
-            "description": null,
-            "type": "custom-shadow",
-            "value": {
-              "shadowType": "dropShadow",
-              "radius": 6,
-              "color": "#3a3944ff",
-              "offsetX": 0,
-              "offsetY": 2,
-              "spread": 0
-            }
-          },
-          "card": {
-            "description": null,
-            "type": "custom-shadow",
-            "value": {
-              "shadowType": "dropShadow",
-              "radius": 6,
-              "color": "#3a394433",
-              "offsetX": 0,
-              "offsetY": 2,
-              "spread": 0
-            }
-          },
-          "modal": {
-            "description": null,
-            "type": "custom-shadow",
-            "value": {
-              "shadowType": "dropShadow",
-              "radius": 14,
-              "color": "#3a394433",
-              "offsetX": 0,
-              "offsetY": 2,
-              "spread": 0
-            }
-          },
-          "infobar": {
-            "description": null,
-            "type": "custom-shadow",
-            "value": {
-              "shadowType": "dropShadow",
-              "radius": 2,
-              "color": "#3a394433",
-              "offsetX": 0,
-              "offsetY": 1,
-              "spread": 0
-            }
-          },
-          "active-tab": {
-            "0": {
-              "type": "custom-shadow",
-              "value": {
-                "shadowType": "dropShadow",
-                "radius": 4,
-                "color": "#80808e80",
-                "offsetX": 0,
-                "offsetY": 0,
-                "spread": 0
-              }
-            },
-            "1": {
-              "type": "custom-shadow",
-              "value": {
-                "shadowType": "dropShadow",
-                "radius": 1,
-                "color": "#80808ee6",
-                "offsetX": 0,
-                "offsetY": 0,
-                "spread": 0
-              }
-            },
-            "description": null
-          },
-          "switch": {
-            "description": null,
-            "type": "custom-shadow",
-            "value": {
-              "shadowType": "dropShadow",
-              "radius": 2,
-              "color": "#3a394433",
-              "offsetX": 0,
-              "offsetY": 0,
-              "spread": 0
-            }
+  "color": {
+    "action": {
+      "primary light": {
+        "description": "CSS token: --desktop-light-primary-button",
+        "type": "color",
+        "value": "#0060dfff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:56136877611054f328cec9762b0735f2958ca128,",
+            "exportKey": "color"
           }
         }
       },
-      "dark": {
-        "color": {
-          "action": {
-            "primary": {
-              "description": null,
-              "type": "color",
-              "value": "#00ddffff"
-            },
-            "primary-hover": {
-              "description": null,
-              "type": "color",
-              "value": "#80ebffff"
-            },
-            "primary-active": {
-              "description": null,
-              "type": "color",
-              "value": "#aaf2ffff"
-            },
-            "primary-disabled": {
-              "description": null,
-              "type": "color",
-              "value": "#00ddff66"
-            },
-            "secondary": {
-              "description": null,
-              "type": "color",
-              "value": "#2b2a33ff"
-            },
-            "secondary-hover": {
-              "description": null,
-              "type": "color",
-              "value": "#52525eff"
-            },
-            "secondary-active": {
-              "description": null,
-              "type": "color",
-              "value": "#5b5b66ff"
-            },
-            "secondary-disabled": {
-              "description": null,
-              "type": "color",
-              "value": "#2b2a3366"
-            },
-            "error": {
-              "description": null,
-              "type": "color",
-              "value": "#ff8480ff"
-            },
-            "error-hover": {
-              "description": null,
-              "type": "color",
-              "value": "#ffbdc5ff"
-            },
-            "error-active": {
-              "description": null,
-              "type": "color",
-              "value": "#ffdfe7ff"
-            },
-            "error-disabled": {
-              "description": null,
-              "type": "color",
-              "value": "#ff848b66"
-            }
-          }
-        },
-        "text": {
-          "color": {
-            "primary": {
-              "description": null,
-              "type": "color",
-              "value": "#fbfbfeff"
-            },
-            "secondary": {
-              "description": null,
-              "type": "color",
-              "value": "#cfcfd8ff"
-            },
-            "inverted": {
-              "description": null,
-              "type": "color",
-              "value": "#15141aff"
-            },
-            "link": {
-              "description": null,
-              "type": "color",
-              "value": "#00ddffff"
-            },
-            "error": {
-              "description": null,
-              "type": "color",
-              "value": "#ff9aa2ff"
-            },
-            "disabled": {
-              "description": null,
-              "type": "color",
-              "value": "#fbfbfe66"
-            }
-          }
-        },
-        "icon": {
-          "color": {
-            "default": {
-              "description": null,
-              "type": "color",
-              "value": "#fbfbfeff"
-            },
-            "information": {
-              "description": null,
-              "type": "color",
-              "value": "#80ebffff"
-            },
-            "warning": {
-              "description": null,
-              "type": "color",
-              "value": "#ffbd4fff"
-            },
-            "critical": {
-              "description": null,
-              "type": "color",
-              "value": "#ff9aa2ff"
-            },
-            "success": {
-              "description": null,
-              "type": "color",
-              "value": "#54ffbdff"
-            },
-            "etp-shield": {
-              "description": null,
-              "type": "custom-gradient",
-              "value": {
-                "gradientType": "linear",
-                "rotation": 224.99999829245263,
-                "stops": [
-                  {
-                    "position": 0,
-                    "color": "#cb9effff"
-                  },
-                  {
-                    "position": 1,
-                    "color": "#00ddffff"
-                  }
-                ]
-              }
-            }
-          }
-        },
-        "layer": {
-          "color": {
-            "1": {
-              "description": "Tabstrip Background",
-              "type": "color",
-              "value": "#1c1b22ff"
-            },
-            "2": {
-              "description": "Toolbar Background",
-              "type": "color",
-              "value": "#2b2a33ff"
-            },
-            "3": {
-              "description": "Panel, Modal, Infobar, and Menu Background",
-              "type": "color",
-              "value": "#42414dff"
-            },
-            "scrim": {
-              "description": "Web Page Overlay for Modals Background",
-              "type": "color",
-              "value": "#5b5b6673"
-            }
-          }
-        },
-        "border": {
-          "color": {
-            "ui-component": {
-              "description": null,
-              "type": "color",
-              "value": "#8f8f9dff"
-            },
-            "panel": {
-              "description": null,
-              "type": "color",
-              "value": "#52525eff"
-            },
-            "context-menu": {
-              "description": null,
-              "type": "color",
-              "value": "#3a3944ff"
-            },
-            "zap": {
-              "description": null,
-              "type": "custom-gradient",
-              "value": {
-                "gradientType": "linear",
-                "rotation": 134.99853808113966,
-                "stops": [
-                  {
-                    "position": 0,
-                    "color": "#9059ffff"
-                  },
-                  {
-                    "position": 0.52,
-                    "color": "#ff4aa2ff"
-                  },
-                  {
-                    "position": 1,
-                    "color": "#ffbd4fff"
-                  }
-                ]
-              }
-            }
-          }
-        },
-        "shadow": {
-          "card": {
-            "description": null,
-            "type": "custom-shadow",
-            "value": {
-              "shadowType": "dropShadow",
-              "radius": 6,
-              "color": "#15141aff",
-              "offsetX": 0,
-              "offsetY": 2,
-              "spread": 0
-            }
-          },
-          "modal": {
-            "description": null,
-            "type": "custom-shadow",
-            "value": {
-              "shadowType": "dropShadow",
-              "radius": 14,
-              "color": "#15141aff",
-              "offsetX": 0,
-              "offsetY": 2,
-              "spread": 0
-            }
-          },
-          "infobar": {
-            "description": null,
-            "type": "custom-shadow",
-            "value": {
-              "shadowType": "dropShadow",
-              "radius": 2,
-              "color": "#000000ff",
-              "offsetX": 0,
-              "offsetY": 1,
-              "spread": 0
-            }
-          },
-          "switch": {
-            "description": null,
-            "type": "custom-shadow",
-            "value": {
-              "shadowType": "dropShadow",
-              "radius": 2,
-              "color": "#000000ff",
-              "offsetX": 0,
-              "offsetY": 0,
-              "spread": 0
-            }
-          },
-          "active-tab": {
-            "0": {
-              "type": "custom-shadow",
-              "value": {
-                "shadowType": "dropShadow",
-                "radius": 4,
-                "color": "#000000ff",
-                "offsetX": 0,
-                "offsetY": 0,
-                "spread": 0
-              }
-            },
-            "1": {
-              "type": "custom-shadow",
-              "value": {
-                "shadowType": "dropShadow",
-                "radius": 1,
-                "color": "#000000ff",
-                "offsetX": 0,
-                "offsetY": 0,
-                "spread": 0
-              }
-            },
-            "description": null
+      "primary hover light": {
+        "description": "CSS token: --desktop-light-primary-button-hover",
+        "type": "color",
+        "value": "#0250bbff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:6c94fcb75248f3c75699e5e3186d9ef7ef09683b,",
+            "exportKey": "color"
           }
         }
       },
-      "mac": {
-        "type": {
-          "size": {
-            "headline-xl": {
-              "description": "Used for titles on error pages only.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 33,
-                "textDecoration": "none",
-                "fontFamily": "SF Pro Text",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 46.2,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "heading-l-bold": {
-              "description": "Used for titles in onboard modals and in about:logins.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 24.75,
-                "textDecoration": "none",
-                "fontFamily": "SF Pro Text",
-                "fontWeight": 600,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 34.65,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "heading-l": {
-              "description": "Used for text in modals and as titles in about:preferences.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 24.75,
-                "textDecoration": "none",
-                "fontFamily": "SF Pro Text",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 34.7,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-l-bold": {
-              "description": "Used for text in onboarding modals, New Tab, and about:pages.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 16,
-                "textDecoration": "none",
-                "fontFamily": "SF Pro Text",
-                "fontWeight": 600,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 22.4,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-l": {
-              "description": "Used for text in modals and other about:pages.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 16,
-                "textDecoration": "none",
-                "fontFamily": "SF Pro Text",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 22.4,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-l-link": {
-              "description": "Used for links in modals and other about:pages.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 16,
-                "textDecoration": "underline",
-                "fontFamily": "SF Pro Text",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 22.4,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-m-bold": {
-              "description": "Used for titles in modals, panels, and menus in Core UI.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 13.75,
-                "textDecoration": "none",
-                "fontFamily": "SF Pro Text",
-                "fontWeight": 600,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 19.25,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-m": {
-              "description": "Used for text in modals, panels, and menus in Core UI.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 13.75,
-                "textDecoration": "none",
-                "fontFamily": "SF Pro Text",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 19.25,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-m-link": {
-              "description": "Used for links in modals, panels, and menus in Core UI.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 13.75,
-                "textDecoration": "underline",
-                "fontFamily": "SF Pro Text",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 19.25,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-s-bold": {
-              "description": "Used for text in about:pages, New Tab, Infobar, app menu, and menu notifications.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 11,
-                "textDecoration": "none",
-                "fontFamily": "SF Pro Text",
-                "fontWeight": 600,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 15.4,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-s": {
-              "description": "Used for text in about:pages, New Tab, Infobar, app menu, and menu notifications.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 11,
-                "textDecoration": "none",
-                "fontFamily": "SF Pro Text",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 15.4,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-s-link": {
-              "description": "Used for links in about:pages, New Tab, Infobar, app menu, and menu notifications.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 11,
-                "textDecoration": "underline",
-                "fontFamily": "SF Pro Text",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 15.4,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-xs": {
-              "description": "Used ONLY for tab meta text in tabs. Do not wrap.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 8.800000190734863,
-                "textDecoration": "none",
-                "fontFamily": "SF Pro Text",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0.176,
-                "lineHeight": 12.32,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "uppercase"
-              }
-            }
+      "primary active light": {
+        "description": "Pressed, MouseDown",
+        "type": "color",
+        "value": "#054096ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:06b20cc9b6f091aff716f4198eb38f185650b988,",
+            "exportKey": "color"
           }
         }
       },
-      "win": {
-        "type": {
-          "size": {
-            "heading-xl": {
-              "description": "Used for titles on error pages only.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 36,
-                "textDecoration": "none",
-                "fontFamily": "Segoe UI",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 50.4,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "heading-l-bold": {
-              "description": "Used for titles in onboard modals and in about:logins.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 27,
-                "textDecoration": "none",
-                "fontFamily": "Segoe UI",
-                "fontWeight": 600,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 37.8,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "heading-l": {
-              "description": "Used for text in modals and as titles in about:preferences.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 27,
-                "textDecoration": "none",
-                "fontFamily": "Segoe UI",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 37.8,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-l-bold": {
-              "description": "Used for text in onboarding modals, New Tab, and about:pages.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 18,
-                "textDecoration": "none",
-                "fontFamily": "Segoe UI",
-                "fontWeight": 600,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 25.2,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-l": {
-              "description": "Used for text in modals and other about:pages.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 18,
-                "textDecoration": "none",
-                "fontFamily": "Segoe UI",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 25.2,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-l-link": {
-              "description": "Used for links in modals and other about:pages.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 18,
-                "textDecoration": "underline",
-                "fontFamily": "Segoe UI",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 22.4,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-m-bold": {
-              "description": "Used for titles in modals, panels, and menus in Core UI.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 15,
-                "textDecoration": "none",
-                "fontFamily": "Segoe UI",
-                "fontWeight": 600,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 21,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-m": {
-              "description": "Used for text in modals, panels, and menus in Core UI.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 15,
-                "textDecoration": "none",
-                "fontFamily": "Segoe UI",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 21,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-m-link": {
-              "description": "Used for links in modals, panels, and menus in Core UI.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 15,
-                "textDecoration": "underline",
-                "fontFamily": "Segoe UI",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 21,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-s-bold": {
-              "description": "Used for text in about:pages, New Tab, Infobar, app menu, and menu notifications.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 12,
-                "textDecoration": "none",
-                "fontFamily": "Segoe UI",
-                "fontWeight": 600,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 16.8,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-s": {
-              "description": "Used for text in about:pages, New Tab, Infobar, app menu, and menu notifications.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 12,
-                "textDecoration": "none",
-                "fontFamily": "Segoe UI",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 16.8,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-s-link": {
-              "description": "Used for links in about:pages, New Tab, Infobar, app menu, and menu notifications.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 11,
-                "textDecoration": "underline",
-                "fontFamily": "SF Pro Text",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 15.4,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-              }
-            },
-            "body-xs": {
-              "description": "Used ONLY for tab meta text in tabs. Do not wrap.",
-              "type": "custom-fontStyle",
-              "value": {
-                "fontSize": 9.600000381469727,
-                "textDecoration": "none",
-                "fontFamily": "Segoe UI",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0.192,
-                "lineHeight": 13.44,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "uppercase"
-              }
-            }
+      "primary disabled light": {
+        "description": "",
+        "type": "color",
+        "value": "#0060df66",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:627f183f1efdaeeb92059225f3c16313ddd5461b,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "secondary light": {
+        "description": "",
+        "type": "color",
+        "value": "#f0f0f4ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:00a4e74418899fbe0ab5f9e547fc3cf3cecba893,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "secondary hover light": {
+        "description": "",
+        "type": "color",
+        "value": "#e0e0e6ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e98849c972c68cc6f5940e348f39ad0ae7cfa1a1,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "secondary active light": {
+        "description": "Pressed, MouseDown",
+        "type": "color",
+        "value": "#cfcfd8ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:3822ad7f208b5ccd45296b7b1ba79359d13e8925,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "secondary disabled light": {
+        "description": "",
+        "type": "color",
+        "value": "#f0f0f466",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:51019b600661d36dfe3838c7d313693560ade26f,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "error light": {
+        "description": "",
+        "type": "color",
+        "value": "#e22850ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:0eb05b4a793ec34fba1ec28c7fcad287690d1575,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "error hover light": {
+        "description": "",
+        "type": "color",
+        "value": "#c50042ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:8ebf1cdc2f51951f0cdf91b07f4d05094ce94d9c,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "error active light": {
+        "description": "Pressed, MouseDown",
+        "type": "color",
+        "value": "#810220ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e1615f934b0b57b4ab09499254d99320af111b37,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "error disabled light": {
+        "description": "",
+        "type": "color",
+        "value": "#e2285066",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:f555fcdd95eb6d5a0262573ec693e7bf78194431,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "primary dark": {
+        "description": "",
+        "type": "color",
+        "value": "#00ddffff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:2d83c9d61549c31c8d93496921bea44e66085bf6,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "primary hover dark": {
+        "description": "",
+        "type": "color",
+        "value": "#80ebffff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:a1d551be0c06710733ae582efedf70eb6c1e95d0,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "primary active dark": {
+        "description": "",
+        "type": "color",
+        "value": "#aaf2ffff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:25929925240dbb0a523d01340db12852f74a4200,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "primary disabled dark": {
+        "description": "",
+        "type": "color",
+        "value": "#00ddff66",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:937ef9109755689f7de55b2c3f44aca08c26c902,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "secondary dark": {
+        "description": "",
+        "type": "color",
+        "value": "#2b2a33ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:802048a302d270c1eb23e148feb817139dbd6b13,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "secondary hover dark": {
+        "description": "",
+        "type": "color",
+        "value": "#52525eff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:78743c3fa621db5f732711b84781a7c6a6263067,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "secondary active dark": {
+        "description": "",
+        "type": "color",
+        "value": "#5b5b66ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:22c060885b452fc401d1f084fe3b67c83ef7f256,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "secondary disabled dark": {
+        "description": "",
+        "type": "color",
+        "value": "#2b2a3366",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e253210994f2a9ac27d72fb94ef4e6c6b3801ea3,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "error dark": {
+        "description": "",
+        "type": "color",
+        "value": "#ff8480ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:41e5938f88a1d6f440996121149724ca500455f6,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "error hover dark": {
+        "description": "",
+        "type": "color",
+        "value": "#ffbdc5ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:dcaec1db38a74fe43bb036988f3aa039d245acb0,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "error active dark": {
+        "description": "",
+        "type": "color",
+        "value": "#ffdfe7ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:3a73f835773fa9e830fb72bf904e27af6bc39328,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "error disabled dark": {
+        "description": "",
+        "type": "color",
+        "value": "#ff848b66",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:2a4490f520d47df343da92644f03f2868a533732,",
+            "exportKey": "color"
+          }
+        }
+      }
+    },
+    "background": {
+      "1 light": {
+        "description": "Tabstrip Background",
+        "type": "color",
+        "value": "#f0f0f4ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:4cf9cec88e84fc674c1916da2c550182de8aa310,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "2 light": {
+        "description": "Toolbar Background",
+        "type": "color",
+        "value": "#f9f9fbff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:82ca249157dedee8a90b7bdedb156ab5a59c598a,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "3 light": {
+        "description": "Panel, Modal, Infobar, and Menu Background",
+        "type": "color",
+        "value": "#ffffffff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c02713e5c7b83acc390bbf282a3b464993cf10ba,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "scrim light": {
+        "description": "Web Page Overlay for Modals Background",
+        "type": "color",
+        "value": "#5b5b6673",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:0d1424bb5537b1e8309d23126a191f7de64e15fe,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "1 dark": {
+        "description": "Tabstrip Background",
+        "type": "color",
+        "value": "#1c1b22ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:28228983365421ede3b9e47d343513276fd3e378,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "2 dark": {
+        "description": "Toolbar Background",
+        "type": "color",
+        "value": "#2b2a33ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:cd274f808bbf30f7efea2f78d2b1250c2aa05647,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "3 dark": {
+        "description": "Panel, Modal, Infobar, and Menu Background",
+        "type": "color",
+        "value": "#42414dff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:0bf5b0af96a435631f3ca39d1ebff0f67ecb33ad,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "scrim dark": {
+        "description": "Web Page Overlay for Modals Background",
+        "type": "color",
+        "value": "#5b5b6673",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:cfbe55a3c4ab523b6d37569104f2724ef735e545,",
+            "exportKey": "color"
+          }
+        }
+      }
+    },
+    "border": {
+      "ui component light": {
+        "description": "",
+        "type": "color",
+        "value": "#8f8f9dff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:9700a65d727c248d4873542d8d84731101f3832c,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "panel light": {
+        "description": "",
+        "type": "color",
+        "value": "#f0f0f4ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:9bdb08e057fed0cb3edd1b500cde31ed7472a908,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "modal light": {
+        "description": "",
+        "type": "color",
+        "value": "#f0f0f4ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:ec05407b76cd4eb600efbb67fa77ad41ccecef2e,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "context menu light": {
+        "description": "",
+        "type": "color",
+        "value": "#cfcfd8ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:2dcfca9df015916975fc9f7f1b733919026c48c1,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "ui component dark": {
+        "description": "",
+        "type": "color",
+        "value": "#8f8f9dff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:4978b05476ceb3676937151ec21f3de11f9a8225,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "panel dark": {
+        "description": "",
+        "type": "color",
+        "value": "#52525eff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:3a1e2eafffc79ff26071897c4e9d0d5857566709,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "context-menu dark": {
+        "description": "",
+        "type": "color",
+        "value": "#3a3944ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c3fc616e12586d97f3748846f2bb23a6094fa0b3,",
+            "exportKey": "color"
+          }
+        }
+      }
+    },
+    "icon": {
+      "default light": {
+        "description": "",
+        "type": "color",
+        "value": "#5b5b66ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:43c9a79262bb0b2983a6a55877aaa95a274d0246,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "information light": {
+        "description": "",
+        "type": "color",
+        "value": "#0090edff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:635c2532b0770bd085abbb2e7955552d120ad6bc,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "warning light": {
+        "description": "Use for triangle alert icon",
+        "type": "color",
+        "value": "#ffa436ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:f43fd15a5f064c594f5659ba441ee014da6b6eee,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "critical light": {
+        "description": "Use for critical or error alert icon",
+        "type": "color",
+        "value": "#e22850ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:6f169cbbe8712bfc9f13dde224a30cc31b8baf48,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "success light": {
+        "description": "Use for Update & Restart",
+        "type": "color",
+        "value": "#2ac3a2ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:300546888c458ee33fc6ba93d5231b1f04139872,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "default dark": {
+        "description": "",
+        "type": "color",
+        "value": "#fbfbfeff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:4646ce7c62fb52a974658e9d1dd6d5db3448d92e,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "information dark": {
+        "description": "",
+        "type": "color",
+        "value": "#80ebffff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:2069901c78a074609a047b70f5407c440726841c,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "warning dark": {
+        "description": "",
+        "type": "color",
+        "value": "#ffbd4fff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:856463687fae7308a2cf2533b20acc92c1ae6bed,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "critical dark": {
+        "description": "",
+        "type": "color",
+        "value": "#ff9aa2ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e5b6dcdfa325755808da4ccfecbbb05f26d05c4d,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "success dark": {
+        "description": "",
+        "type": "color",
+        "value": "#54ffbdff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:27549ad49af4b89ee3666175b6c1a8413c02ce74,",
+            "exportKey": "color"
+          }
+        }
+      }
+    },
+    "text": {
+      "primary light": {
+        "description": "",
+        "type": "color",
+        "value": "#15141aff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:f9f52edbfd37a708afa06ae04f0d5ef61e210036,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "secondary light": {
+        "description": "",
+        "type": "color",
+        "value": "#5b5b66ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:4b732e8df9132a100e88ce952d1cef71f3f065c3,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "inverted light": {
+        "description": "",
+        "type": "color",
+        "value": "#fbfbfeff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:0799d2cfadc309ead34edbb584b3ec686b609773,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "link light": {
+        "description": "",
+        "type": "color",
+        "value": "#0060dfff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:9e8fb2706122bb2ff9233956642880766d82b58a,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "error light": {
+        "description": "",
+        "type": "color",
+        "value": "#c50042ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e5072eafdb6c57039f9adb6ddf58ae4b564ae779,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "disabled light": {
+        "description": "",
+        "type": "color",
+        "value": "#15141a66",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:8f9d78660ac92a557738e728bdd6172c7ac2dcba,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "primary dark": {
+        "description": "",
+        "type": "color",
+        "value": "#fbfbfeff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:8994fa1f863107409ec07a72d9ad10b1c8260887,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "secondary dark": {
+        "description": "",
+        "type": "color",
+        "value": "#cfcfd8ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c1a8bfc7d34abcdfb96695fc33ebd6af3cae680e,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "inverted dark": {
+        "description": "",
+        "type": "color",
+        "value": "#15141aff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:22c160a51c2b8103154143182b82526f4b47dec5,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "link dark": {
+        "description": "",
+        "type": "color",
+        "value": "#00ddffff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:2fdcdaef3eef5c168f45e4e20a273bf6c63c3eef,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "error dark": {
+        "description": "",
+        "type": "color",
+        "value": "#ff9aa2ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:a8b956ff4734eb12c8fa0f119f4873018f423583,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "disabled dark": {
+        "description": "",
+        "type": "color",
+        "value": "#fbfbfe66",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:a7cc430823103d53d1b299947fe71b17524b5add,",
+            "exportKey": "color"
           }
         }
       }
     }
   },
-  "fx-grid": {
-    "0": {
-      "type": "custom-grid",
-      "value": {
-        "pattern": "grid",
-        "sectionSize": 4
+  "gradient": {
+    "border": {
+      "zap": {
+        "description": "",
+        "type": "custom-gradient",
+        "value": {
+          "gradientType": "linear",
+          "rotation": 134.99853808113966,
+          "stops": [
+            {
+              "position": 0,
+              "color": "#9059ffff"
+            },
+            {
+              "position": 0.52,
+              "color": "#ff4aa2ff"
+            },
+            {
+              "position": 1,
+              "color": "#ffbd4fff"
+            }
+          ]
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:23fadf22a4ebb35a4f6778b4e3c4aea0a9f38d9b,",
+            "exportKey": "gradient"
+          }
+        }
       }
     },
-    "1": {
-      "type": "custom-grid",
-      "value": {
-        "pattern": "rows",
-        "sectionSize": 8,
-        "gutterSize": 0,
-        "alignment": "min",
-        "count": "auto",
-        "offset": 0
+    "icon": {
+      "etp-shield light": {
+        "description": "Use for ETP Active ONLY",
+        "type": "custom-gradient",
+        "value": {
+          "gradientType": "linear",
+          "rotation": 224.99999829245263,
+          "stops": [
+            {
+              "position": 0,
+              "color": "#9059ffff"
+            },
+            {
+              "position": 1,
+              "color": "#0250bbff"
+            }
+          ]
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:27806e0123eebe17ede194ca56225b04d1285d7b,",
+            "exportKey": "gradient"
+          }
+        }
+      },
+      "etp-shield dark": {
+        "description": "",
+        "type": "custom-gradient",
+        "value": {
+          "gradientType": "linear",
+          "rotation": 224.99999829245263,
+          "stops": [
+            {
+              "position": 0,
+              "color": "#cb9effff"
+            },
+            {
+              "position": 1,
+              "color": "#00ddffff"
+            }
+          ]
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:770c7f91d086815da250563733de5157eba3ab56,",
+            "exportKey": "gradient"
+          }
+        }
+      }
+    }
+  },
+  "grid": {
+    "fx grid": {
+      "0": {
+        "type": "custom-grid",
+        "value": {
+          "pattern": "grid",
+          "sectionSize": 4
+        }
+      },
+      "1": {
+        "type": "custom-grid",
+        "value": {
+          "pattern": "rows",
+          "sectionSize": 8,
+          "gutterSize": 0,
+          "alignment": "min",
+          "count": "auto",
+          "offset": 0
+        }
+      },
+      "description": null,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:20d42b3654ce1160bc5838a02220372d805823dc,",
+          "exportKey": "grid"
+        }
+      }
+    }
+  },
+  "font": {
+    "mac": {
+      "xxl": {
+        "description": "Used for titles on error pages only.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 24,
+          "textDecoration": "none",
+          "fontFamily": "SF Pro",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 33.6,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:4111858748b587de30b8ec98dde976782b0570c9,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "xl bold": {
+        "description": "Used for titles in onboard modals and in about:logins.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 20,
+          "textDecoration": "none",
+          "fontFamily": "SF Pro",
+          "fontWeight": 600,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 28,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:af7c515e86344f030ff4c49a912e982b1ebd0c8f,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "xl": {
+        "description": "Used for text in modals and as titles in about:preferences.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 20,
+          "textDecoration": "none",
+          "fontFamily": "SF Pro",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 28,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:2df9b67b82d0dd8cfb7f764516ddcffd91a2d78a,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "l bold": {
+        "description": "Used for text in onboarding modals, New Tab, and about:pages.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 16,
+          "textDecoration": "none",
+          "fontFamily": "SF Pro",
+          "fontWeight": 600,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 22.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:83f7dc0d9a33b05064eee3776d8c5085115a9b64,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "l": {
+        "description": "Used for text in modals and other about:pages.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 16,
+          "textDecoration": "none",
+          "fontFamily": "SF Pro",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 22.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:8e3fa4d1c104b811348ceb6fe9bdefd5bbd42bb9,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "l link": {
+        "description": "Used for links in modals and other about:pages.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 16,
+          "textDecoration": "underline",
+          "fontFamily": "SF Pro",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 22.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:3c83ce89e77f25d6814dbe63945ec5458358bab6,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "m bold": {
+        "description": "Used for titles in modals, panels, and menus in Core UI.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 13,
+          "textDecoration": "none",
+          "fontFamily": "SF Pro",
+          "fontWeight": 600,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 18.2,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:39f8f49db8ab94399bb745b97af9522920b0605e,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "m": {
+        "description": "Used for text in modals, panels, and menus in Core UI.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 13,
+          "textDecoration": "none",
+          "fontFamily": "SF Pro",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 18.2,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:89c17c020432fb64031ee7cd812780446ea721fb,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "m link": {
+        "description": "Used for links in modals, panels, and menus in Core UI.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 13,
+          "textDecoration": "underline",
+          "fontFamily": "SF Pro",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 18.2,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:40fa45a0ee64f7ddc0b9eede6429a9cbbd006adc,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "s bold": {
+        "description": "Used for text in small inputs.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 11,
+          "textDecoration": "none",
+          "fontFamily": "SF Pro",
+          "fontWeight": 600,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 15.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:73d1aa8b4f3f74057370aec73700c0739585b9fb,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "s": {
+        "description": "Used for text in about:pages, New Tab, Infobar, app menu, and menu notifications.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 11,
+          "textDecoration": "none",
+          "fontFamily": "SF Pro",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 15.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:2de27a80cf917492f9ecc83b988278c3cf7b0f1a,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "s link": {
+        "description": "Used for links in about:pages, New Tab, Infobar, app menu, and menu notifications.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 11,
+          "textDecoration": "underline",
+          "fontFamily": "SF Pro",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 15.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:1ca37fb4c77840f4ce8f60a4ea05367547335892,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "xs": {
+        "description": "Used ONLY for tab meta text in tabs. Do not wrap.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 8.199999809265137,
+          "textDecoration": "none",
+          "fontFamily": "SF Pro",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0.164,
+          "lineHeight": 11.47,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "uppercase"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:53e63b45550571e3f882ba563e1b874e27f5bd0c,",
+            "exportKey": "font"
+          }
+        }
       }
     },
-    "description": null
+    "win": {
+      "xxl": {
+        "description": "Used for titles on error pages only.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 24,
+          "textDecoration": "none",
+          "fontFamily": "Segoe UI",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 33.6,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:f8058d8c83365c08f3cbd013eabbd19e6ade38f1,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "xl bold": {
+        "description": "Used for titles in onboard modals and in about:logins.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 20,
+          "textDecoration": "none",
+          "fontFamily": "Segoe UI",
+          "fontWeight": 600,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 28,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:19ae92d399e82e2da6109880dcde085716dcf38d,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "xl": {
+        "description": "Used for text in modals and as titles in about:preferences.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 20,
+          "textDecoration": "none",
+          "fontFamily": "Segoe UI",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 28,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:b474adbec55945a113c0457b23050a2e6b8c80ce,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "l bold": {
+        "description": "Used for text in onboarding modals, New Tab, and about:pages.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 16,
+          "textDecoration": "none",
+          "fontFamily": "Segoe UI",
+          "fontWeight": 600,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 22.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:387be59d80cfb5a77dfe501aff67f9ac9288ac68,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "l": {
+        "description": "Used for links in modals and other about:pages.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 16,
+          "textDecoration": "underline",
+          "fontFamily": "Segoe UI",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 22.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:76de990a0cf13bc97b1e78bf1dff141e6e6ec3a2,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "l link": {
+        "description": "Used for text in modals and other about:pages.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 16,
+          "textDecoration": "none",
+          "fontFamily": "Segoe UI",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 22.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:bc789a398133162cc42df0aaa30648fc6583401b,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "m bold": {
+        "description": "Used for titles in modals, panels, and menus in Core UI.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 14,
+          "textDecoration": "none",
+          "fontFamily": "Segoe UI",
+          "fontWeight": 600,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 19.6,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c9a01da2d03954ba7e052caa39555e53e1e3da35,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "m": {
+        "description": "Used for text in modals, panels, and menus in Core UI.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 14,
+          "textDecoration": "none",
+          "fontFamily": "Segoe UI",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 19.6,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:386bbc631908aa91234d72020e6622b1000a125e,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "m link": {
+        "description": "Used for links in modals, panels, and menus in Core UI.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 14,
+          "textDecoration": "underline",
+          "fontFamily": "Segoe UI",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 19.6,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:41192208d8e3c353bf799e07fb4b957edd360f4f,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "s bold": {
+        "description": "Used for text in about:pages, New Tab, Infobar, app menu, and menu notifications.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 11,
+          "textDecoration": "none",
+          "fontFamily": "Segoe UI",
+          "fontWeight": 600,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 15.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:820a3189556630f18d0d006eb4249f1a53a94a72,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "s": {
+        "description": "Used for text in about:pages, New Tab, Infobar, app menu, and menu notifications.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 11,
+          "textDecoration": "none",
+          "fontFamily": "Segoe UI",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 15.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c2656a3672b1a0409458e095569748e23feef4ac,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "s link": {
+        "description": "Used for links in about:pages, New Tab, Infobar, app menu, and menu notifications.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 11,
+          "textDecoration": "underline",
+          "fontFamily": "Segoe UI",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 15.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:4ddb0649ec231941533cb37e2f4a25b8447cdd5e,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "xs": {
+        "description": "Used ONLY for tab meta text in tabs. Do not wrap.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 8.199999809265137,
+          "textDecoration": "none",
+          "fontFamily": "Segoe UI",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0.164,
+          "lineHeight": 11.47,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "uppercase"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e94622d72c234b98c17a24846a0c22c59f777510,",
+            "exportKey": "font"
+          }
+        }
+      }
+    }
+  },
+  "effect": {
+    "shadow": {
+      "05 light": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 4,
+            "color": "#80808e80",
+            "offsetX": 0,
+            "offsetY": 0,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 1,
+            "color": "#80808ee6",
+            "offsetX": 0,
+            "offsetY": 0,
+            "spread": 0
+          }
+        },
+        "description": "Use for active tab.",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:31c1025568bc89df4b903388ef7401a24a943e8c,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "10 light": {
+        "description": "Use for infobar.",
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 2,
+          "color": "#3a394433",
+          "offsetX": 0,
+          "offsetY": 1,
+          "spread": 0
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:79eeb615c965772966e2a7579e9201606487b61e,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "20 light": {
+        "description": "Use for card and panel.",
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 6,
+          "color": "#3a394433",
+          "offsetX": 0,
+          "offsetY": 2,
+          "spread": 0
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:3816f0c0ba4386ab5da803e2d01bee4c0d7779ef,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "30 light": {
+        "description": "Use for address bar, modal, and menu.",
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 14,
+          "color": "#3a394433",
+          "offsetX": 0,
+          "offsetY": 2,
+          "spread": 0
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:a37b9e8e307fd0dadaa20dd72331d92c7b526e56,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "05 dark": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 4,
+            "color": "#000000ff",
+            "offsetX": 0,
+            "offsetY": 0,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 1,
+            "color": "#000000ff",
+            "offsetX": 0,
+            "offsetY": 0,
+            "spread": 0
+          }
+        },
+        "description": "Use for active tab.",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:bf430775a3d53b066f5585beb4feae583c8ca359,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "10 dark": {
+        "description": "Use for infobar.",
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 2,
+          "color": "#000000ff",
+          "offsetX": 0,
+          "offsetY": 1,
+          "spread": 0
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:78ecb14dab717fd3137f5f4f189de9dbccac4c3c,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "20 dark": {
+        "description": "Use for card and panel.",
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 6,
+          "color": "#15141aff",
+          "offsetX": 0,
+          "offsetY": 2,
+          "spread": 0
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:d239979ee72b5ce738cddfb594cc618d80331f40,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "30 dark": {
+        "description": "Use for address bar, modal, and menu.",
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 14,
+          "color": "#15141aff",
+          "offsetX": 0,
+          "offsetY": 2,
+          "spread": 0
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:798815bdb14a0944ad19829992de897bb583f207,",
+            "exportKey": "effect"
+          }
+        }
+      }
+    }
+  },
+  "typography": {
+    "mac": {
+      "xxl": {
+        "description": "Used for titles on error pages only.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 24
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "SF Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 33.6
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "xl bold": {
+        "description": "Used for titles in onboard modals and in about:logins.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 20
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "SF Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 28
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "xl": {
+        "description": "Used for text in modals and as titles in about:preferences.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 20
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "SF Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 28
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "l bold": {
+        "description": "Used for text in onboarding modals, New Tab, and about:pages.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 16
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "SF Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 22.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "l": {
+        "description": "Used for text in modals and other about:pages.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 16
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "SF Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 22.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "l link": {
+        "description": "Used for links in modals and other about:pages.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 16
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "underline"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "SF Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 22.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "m bold": {
+        "description": "Used for titles in modals, panels, and menus in Core UI.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 13
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "SF Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 18.2
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "m": {
+        "description": "Used for text in modals, panels, and menus in Core UI.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 13
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "SF Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 18.2
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "m link": {
+        "description": "Used for links in modals, panels, and menus in Core UI.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 13
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "underline"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "SF Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 18.2
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "s bold": {
+        "description": "Used for text in small inputs.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 11
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "SF Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 15.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "s": {
+        "description": "Used for text in about:pages, New Tab, Infobar, app menu, and menu notifications.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 11
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "SF Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 15.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "s link": {
+        "description": "Used for links in about:pages, New Tab, Infobar, app menu, and menu notifications.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 11
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "underline"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "SF Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 15.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "xs": {
+        "description": "Used ONLY for tab meta text in tabs. Do not wrap.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 8.199999809265137
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "SF Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0.164
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 11.47
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "uppercase"
+        }
+      }
+    },
+    "win": {
+      "xxl": {
+        "description": "Used for titles on error pages only.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 24
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Segoe UI"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 33.6
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "xl bold": {
+        "description": "Used for titles in onboard modals and in about:logins.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 20
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Segoe UI"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 28
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "xl": {
+        "description": "Used for text in modals and as titles in about:preferences.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 20
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Segoe UI"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 28
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "l bold": {
+        "description": "Used for text in onboarding modals, New Tab, and about:pages.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 16
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Segoe UI"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 22.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "l": {
+        "description": "Used for links in modals and other about:pages.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 16
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "underline"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Segoe UI"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 22.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "l link": {
+        "description": "Used for text in modals and other about:pages.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 16
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Segoe UI"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 22.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "m bold": {
+        "description": "Used for titles in modals, panels, and menus in Core UI.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 14
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Segoe UI"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 19.6
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "m": {
+        "description": "Used for text in modals, panels, and menus in Core UI.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 14
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Segoe UI"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 19.6
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "m link": {
+        "description": "Used for links in modals, panels, and menus in Core UI.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 14
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "underline"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Segoe UI"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 19.6
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "s bold": {
+        "description": "Used for text in about:pages, New Tab, Infobar, app menu, and menu notifications.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 11
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Segoe UI"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 15.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "s": {
+        "description": "Used for text in about:pages, New Tab, Infobar, app menu, and menu notifications.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 11
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Segoe UI"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 15.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "s link": {
+        "description": "Used for links in about:pages, New Tab, Infobar, app menu, and menu notifications.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 11
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "underline"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Segoe UI"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 15.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "xs": {
+        "description": "Used ONLY for tab meta text in tabs. Do not wrap.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 8.199999809265137
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Segoe UI"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0.164
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 11.47
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "uppercase"
+        }
+      }
+    }
   }
 }
